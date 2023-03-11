@@ -39,11 +39,13 @@
       year: 2022 - Now
       description: A course evaluation website with comprehensive grading. Students can post their comments and discussion about courses.
         - title: Project manager
+          contents:
   contents:
     - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
       year: 2022 - Now
       description: A high-performance online judge system. It is easy to deploy (with install script), light weight and extensible.
         - title: Core user, UX
+          contents:
 
 - title: Honors and Awards
   type: time_table
