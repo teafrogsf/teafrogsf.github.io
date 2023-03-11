@@ -42,8 +42,7 @@
     - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
       year: 2022 - Now
       description: A high-performance online judge system. It is easy to deploy (with install script), light weight and extensible.
-        - title: Core user, UX
-          contents:
+        - Core user, UX
 
 - title: Honors and Awards
   type: time_table
