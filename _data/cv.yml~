@@ -38,8 +38,7 @@
     - title: <a href="https://coursebench.geekpie.club/">CourseBench</a>
       year: 2022 - Now
       description: A course evaluation website with comprehensive grading. Students can post their comments and discussion about courses.
-        - title: Project manager
-          contents:
+        - Project manager
   contents:
     - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
       year: 2022 - Now

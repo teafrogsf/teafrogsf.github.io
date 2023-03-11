@@ -38,10 +38,7 @@
     - title: <a href="https://coursebench.geekpie.club/">CourseBench</a>
       year: 2022 - Now
       description: A course evaluation website with comprehensive grading. Students can post their comments and discussion about courses.
-        - Loren Ipsum.
-        - title: Project manager
-          contents:
-  contents:
+        - Project manager
     - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
       year: 2022 - Now
       description: A high-performance online judge system. It is easy to deploy (with install script), light weight and extensible.
