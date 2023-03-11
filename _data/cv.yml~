@@ -21,6 +21,18 @@
 - title: Experience
   type: time_table
   contents:
+    - title: (Head) Teaching Assistant
+      institution: SI 100B
+      year: 2021 - Now
+      description:
+    - title: Teaching Assistant
+      institution: CS 101
+      year: 2022 - 2023
+      description:
+    - title: Teaching Assistant
+      institution: CS 100
+      year: 2022 - 2022
+      description:
     - title: President
       institution: ShanghaiTech Music Club
       year: 2021 - 2023
@@ -74,4 +86,4 @@
   type: list
   contents:
     - <u>Composing & Mixing Music:</u> Semi-professional
-    - <u>Writing </u>
+    - <u>Writing</u>
