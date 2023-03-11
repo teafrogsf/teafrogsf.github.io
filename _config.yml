@@ -161,11 +161,11 @@ disqus_shortname: teafrogsf # al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
+    #  news:
+    #defaults:
+    #  layout: post
+    #output: true
+    #permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
