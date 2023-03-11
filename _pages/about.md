@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+  <!--address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Your City, State 12345</p>-->
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there. I am a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). I am a junior student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). My current research interest is Algorithm Game Theory (AGT), particularly **Mechanism Design on Social Network**. In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways.
 
-I am not a traditional CS student. I am interested in idealism, particularly ideological criticism. At the same time, I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music with AI.
+I am not a traditional CS student. I am interested in idealism, particularly ideological criticism. I love teaching and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music with AI.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

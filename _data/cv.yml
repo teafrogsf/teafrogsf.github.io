@@ -11,29 +11,19 @@
 - title: Education
   type: time_table
   contents:
-    - title: Visiting Student in Thematic Track
+    - title: Visiting Student in Computer Science Thematic Track
       institution: University of Wisconsin - Madison, Madison, Wisconsin, United States
       year: 2023
-      description:
-        - Description 1.
-        - Description 2.
     - title: B.S. in Computer Science
       institution: ShanghaiTech University, Shanghai, China
       year: 2020 - Now
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: President
+      institution: ShanghaiTech Music Club
+      year: 2021 - 2023
       description:
         - Description 1.
         - Description 2.
@@ -41,52 +31,40 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://coursebench.geekpie.club/">CourseBench</a>
+      year: 2022 - Now
+      description: A course evaluation website with comprehensive grading. Students can post their comments and discussion about courses.
+        - title: Project manager
+  contents:
+    - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
+      year: 2022 - Now
+      description: A high-performance online judge system. It is easy to deploy (with install script), light weight and extensible.
+        - title: Core user, UX
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - ICPC EC Final
+        - 1st in Honorable Mention
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - CCPC Weihai Regional
+        - 3rd Prize, Rank 100
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Mechanism Design on Social Network
       items: 
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Ideology Criticism
       items:
         - Description 1.
         - Description 2.
@@ -94,4 +72,5 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Composing & Mixing Music:</u> Semi-professional
+    - <u>Writing</u>
