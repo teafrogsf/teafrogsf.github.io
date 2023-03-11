@@ -13,13 +13,13 @@
   contents:
     - title: Visiting Student in Thematic Track
       institution: University of Wisconsin - Madison, Madison, Wisconsin, United States
-      year: 2023
+      year: expected 2023
       description:
         - Description 1.
         - Description 2.
     - title: B.S. in Computer Science
       institution: ShanghaiTech University, Shanghai, China
-      year: 2020 - Now
+      year: expected 2024
       description:
         - Description 1.
         - Description 2.
