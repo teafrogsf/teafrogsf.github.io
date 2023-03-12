@@ -71,9 +71,9 @@
       items: 
         - Matching on Social Network
         - Mechanism Design in Reality
-    - title: Ideology Criticism
-      items:
-        - Psychoanalysis  
+          #    - title: Ideology Criticism
+          #items:
+          #- Psychoanalysis  
 
 - title: Other Interests
   type: list
