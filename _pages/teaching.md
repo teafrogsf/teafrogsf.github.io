@@ -7,7 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-I have been working as a teaching assistant since the first semester of my sophomore year. I have a great passion for teaching and I helped 1/4 students in my university to learn how to get started in information science. However, there is still much room for improvement in both my teaching style and the courses I have taught. I will continue to work on this.
 
 <!--For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
