@@ -24,25 +24,19 @@
     - title: (Head) Teaching Assistant
       institution: SI 100B
       year: 2021 - Now
-      description:
+      description: See details in `Teaching'.
     - title: Teaching Assistant
       institution: CS 101
       year: 2022 - 2023
-      description:
+      description: See details in `Teaching'.
     - title: Teaching Assistant
       institution: CS 100
       year: 2022 - 2022
-      description:
+      description: See details in `Teaching'.
     - title: President
       institution: ShanghaiTech Music Club
       year: 2021 - 2023
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      description: Also resposible for the department of original musics.
 
 - title: Projects
   type: time_table
@@ -75,12 +69,11 @@
   contents:
     - title: Mechanism Design on Social Network
       items: 
-        - Description 1.
-        - Description 2.
+        - Matching on Social Network
+        - Mechanism Design in Reality
     - title: Ideology Criticism
       items:
-        - Description 1.
-        - Description 2.
+        - Psychoanalysis  
 
 - title: Other Interests
   type: list
