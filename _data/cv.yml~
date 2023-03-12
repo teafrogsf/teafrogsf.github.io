@@ -24,15 +24,15 @@
     - title: (Head) Teaching Assistant
       institution: SI 100B
       year: 2021 - Now
-      description: See details in `Teaching'.
+      description: You could see details in "teaching" for my TA experience.
     - title: Teaching Assistant
       institution: CS 101
       year: 2022 - 2023
-      description: See details in `Teaching'.
+      description: 
     - title: Teaching Assistant
       institution: CS 100
       year: 2022 - 2022
-      description: See details in `Teaching'.
+      description: 
     - title: President
       institution: ShanghaiTech Music Club
       year: 2021 - 2023
@@ -74,7 +74,6 @@
     - title: Ideology Criticism
       items:
         - Psychoanalysis  
-        - Feminism
 
 - title: Other Interests
   type: list
