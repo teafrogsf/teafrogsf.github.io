@@ -1,0 +1,82 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yuhan Cao # Albert Einstein
+    - name: Date of Birth
+      value: 9th July 2002 # 14th March 1879
+    - name: Languages
+      value: Chinese, English # English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Visiting Student in Computer Science Thematic Track
+      institution: University of Wisconsin - Madison, Madison, Wisconsin, United States
+      year: 2023
+    - title: B.S. in Computer Science
+      institution: ShanghaiTech University, Shanghai, China
+      year: 2020 - Now
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: (Head) Teaching Assistant
+      institution: 'SI 100B: Introduction to Information Science and Technology'
+      year: 2021 - Now
+      description: You could see details in "teaching" for my TA experience.
+    - title: Teaching Assistant
+      institution: 'CS 101: Algorithms and Data Structures'
+      year: 2022 - 2023
+      description: 
+    - title: Teaching Assistant
+      institution: 'CS 100: Introduction to Programming'
+      year: 2022 - 2022
+      description: 
+    - title: President
+      institution: ShanghaiTech Music Club
+      year: 2021 - 2023
+      description: Also resposible for the department of original musics.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: <a href="https://coursebench.geekpie.club/">CourseBench</a>
+      year: 2022 - Now
+      description:
+        - A course evaluation website with comprehensive grading. Students can post their comments and discussion about courses.
+        - Project manager
+    - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
+      year: 2022 - Now
+      description:
+        - A high-performance online judge system. It is easy to deploy (with install script), light weight and extensible.
+        - Core user, UX
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - ICPC EC Final
+        - 1st in Honorable Mention
+    - year: 2022
+      items: 
+        - CCPC Weihai Regional
+        - 3rd Prize, Rank 100
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Mechanism Design on Social Network
+      items: 
+        - Matching on Social Network
+        - Mechanism Design in Reality
+          #    - title: Ideology Criticism
+          #items:
+          #- Psychoanalysis  
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Composing & Mixing Music:</u> Semi-professional
+    - <u>Writing</u>

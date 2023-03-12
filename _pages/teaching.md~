@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: I hope to help everyone learn how to survive in academia.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a sta description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I have been working as a teaching assistant since the first semester of my sophomore year. I have a great passion for teaching and I helped 1/4 students in my university to learn how to get started in information science. However, there is still much room for improvement in both my teaching style and the courses I have taught. I will continue to work on this.
 
-Organize your courses by years, topics, or universities, however you like!
+<!--For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+
+Organize your courses by years, topics, or universities, however you like!-->
