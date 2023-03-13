@@ -14,9 +14,9 @@
         - Involved in the design of all programming assignments (both outline and detail), as well as evaluation and verification
         - Designed the course project proposal, syllabus and grading criteria, as well as the complete design of the two weeks of teaching content and the final review and coordination of the rest of the teaching content
         - Participated in checking the completion of students' assignments and project progress, graded quizzes and assigned tasks
-        - Managed course forum (Piazza, Gradescope \& Blackboard)
+        - Managed course forum (Piazza, Gradescope & Blackboard)
         - Individually tutored over 200 students on course content
-        - Managed the Online Judge website
+        - Managed the Online Judge system
         - Checked academic integrity of all students
         - Collated and counted all students' grades and standardized them
 
@@ -25,7 +25,7 @@
   contents:
     - title: Teaching Assistant, Leader of Programming Assignments Team
       items:
-        - Designed 3 programming assignments (with two other TAs), also evaluated and verified them; covered topics such as Divide & Conquer, Complex Data Structurs and Graph Theory, etc.
+        - Designed 3 programming assignments (with two other TAs), also evaluated and verified them; covered topics such as Divide & Conquer, Complex Data Structures and Graph Theory, etc.
         - Participated in maintaining taeching contents, recording teaching videos
 
 - title: 'CS 100: Introduction to Programming'
@@ -33,5 +33,5 @@
   contents:
     - title: Teaching Assistant
       items:
-        - Taught discussions once a week and covered topics such as Basic C, memory management, OOP, introduction to Modern C++ and its features.
+        - Taught discussions once a week and covered topics such as basic C, memory management, OOP, introduction to modern C++ and its features.
         - Completely designed a discussion slides, based on beamer
