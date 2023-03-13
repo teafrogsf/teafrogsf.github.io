@@ -7,8 +7,6 @@ importance: 1
 category: complete
 ---
 
-{% include embed_audio.html src="/assets/audio/ToYou.wav" %}
+{% include embed_audio.html src="/assets/audio/ToYou.mp3" %}
 
 A birthday's gift.
-
-Note that the audio is uncompressed, so it may take you some time to load.
