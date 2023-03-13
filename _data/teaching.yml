@@ -6,7 +6,7 @@
   type: time_table
   contents:
     - title: (Head) Teaching Assistant
-      year: 2021 - Now
+      # year: 2021 - Now
       description:
       - Reviewed TA applications and builded TA groups
       - Coordinated all work of the TA group as head TA and communicated with the professors
