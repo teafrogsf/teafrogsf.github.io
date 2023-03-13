@@ -1,16 +1,16 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: compositions
+permalink: /compositions/
+description: Here are some of my past works. If you are planning to work with me, please contact me directly by email.
 nav: true
 nav_order: 5
 display_categories: [complete, demo]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
+<!-- pages/compositions.md -->
+<div class="compositions">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}

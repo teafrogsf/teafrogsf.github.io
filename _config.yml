@@ -166,7 +166,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  compositions:
+  projects:
     output: true
     permalink: /compositions/:path/
 
