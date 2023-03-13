@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Straw
+description: My first complete work.
 img: assets/img/12_new.jpg
 importance: 1
 category: complete
@@ -11,7 +11,7 @@ category: complete
 
 A complicated-style music. Vocal is a part of instruments, so don't worry if you can't speak Chinese.
 
-Note that the audio is uncompressed, so it may take you some time to load it.
+Note that the audio is uncompressed, so it may take you some time to load.
 
 
 <div class="row">
