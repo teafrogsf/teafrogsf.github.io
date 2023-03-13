@@ -22,15 +22,15 @@
   type: time_table
   contents:
     - title: (Head) Teaching Assistant
-      institution: SI 100B: Introduction to Information Science and Technology
+      institution: 'SI 100B: Introduction to Information Science and Technology'
       year: 2021 - Now
       description: You could see details in "teaching" for my TA experience.
     - title: Teaching Assistant
-      institution: CS 101: Algorithms and Data Structures
+      institution: 'CS 101: Algorithms and Data Structures'
       year: 2022 - 2023
       description: 
     - title: Teaching Assistant
-      institution: CS 100: Introduction to Programming
+      institution: 'CS 100: Introduction to Programming'
       year: 2022 - 2022
       description: 
     - title: President

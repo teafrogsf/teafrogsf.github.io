@@ -2,21 +2,24 @@
   type: na
   contents: I have been working as a teaching assistant since the first semester of my sophomore year. I have a great passion for teaching and I helped 1/4 students in my university to learn how to get started in information science. However, there is still much room for improvement in both my teaching style and the courses I have taught. I will continue to work on this.
 
-- title: 'SI 100B: Introduction to Information Science and Technology'
-  type: nested_list
+- title: 'SI 100B & 100F: Introduction to Information Science and Technology'
+  type: time_table
   contents:
-    - Reviewed TA applications and builded TA groups
-    - Coordinated all work of the TA group as head TA and communicated with the professors
-    - Discussed and participated in the design of the lecture content throughout the semester
-    - Participated in the design of the tutorial content throughout the semester, planning the syllabus and standards for all content
-    - Involved in the design of all programming assignments (both outline and detail), as well as evaluation and verification
-    - Designed the course project proposal, syllabus and grading criteria, as well as the complete design of the two weeks of teaching content and the final review and coordination of the rest of the teaching content
-    - Participated in checking the completion of students' assignments and project progress, graded quizzes and assigned tasks
-    - Managed course forum (Piazza, Gradescope \& Blackboard)
-    - Individually tutored over 200 students on course content
-    - Managed the Online Judge website
-    - Checked academic integrity of all students
-    - Collated and counted all students' grades and standardized them
+    - title: (Head) Teaching Assistant
+      year: 2021 - Now
+      description:
+      - Reviewed TA applications and builded TA groups
+      - Coordinated all work of the TA group as head TA and communicated with the professors
+      - Discussed and participated in the design of the lecture content throughout the semester
+      - Participated in the design of the tutorial content throughout the semester, planning the syllabus and standards for all content
+      - Involved in the design of all programming assignments (both outline and detail), as well as evaluation and verification
+      -  Designed the course project proposal, syllabus and grading criteria, as well as the complete design of the two weeks of teaching content and the final review and coordination of the rest of the teaching content
+      - Participated in checking the completion of students' assignments and project progress, graded quizzes and assigned tasks
+      - Managed course forum (Piazza, Gradescope \& Blackboard)
+      - Individually tutored over 200 students on course content
+      - Managed the Online Judge website
+      - Checked academic integrity of all students
+      - Collated and counted all students' grades and standardized them
 
 - title: 'CS 101: Algorithms and Data Structures'
   type: nested_list
@@ -25,7 +28,7 @@
     - Participated in maintaining taeching contents, recording teaching videos
 
 - title: 'CS 100: Introduction to Programming'
-  type: list
+  type: nested_list
   contents:
     - Taught discussions once a week and covered topics such as Basic C, memory management, OOP, introduction to Modern C++ and its features.
     - Complete design of a discussion slides, based on beamer
