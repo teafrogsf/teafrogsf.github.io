@@ -1,7 +1,7 @@
 ---
 layout: page
-title: compositions
-permalink: /compositions/
+title: collections
+permalink: /collections/
 description: Here are some of my past works. If you are planning to work with me, please contact me directly by email.
 nav: true
 nav_order: 5

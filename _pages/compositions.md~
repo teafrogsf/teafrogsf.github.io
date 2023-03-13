@@ -1,7 +1,7 @@
 ---
 layout: page
-title: compositions
-permalink: /compositions/
+title: collections
+permalink: /collections/
 description: Here are some of my past works. If you are planning to work with me, please contact me directly by email.
 nav: true
 nav_order: 5
@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/compositions.md -->
-<div class="compositions">
+<div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
