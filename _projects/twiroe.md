@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Twiroe's Theme
-description: A little demo for antonym of heavy metal.
+description: A little demo for antonym of Heavy Metal.
 img: 
 importance: 4
 category: demo
