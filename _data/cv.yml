@@ -63,6 +63,9 @@
       items: 
         - CCPC Weihai Regional
         - 3rd Prize, Rank 100
+    - year: 2022
+      items: 
+        - Outstanding Teaching Assistant
 
 - title: Academic Interests
   type: nested_list
