@@ -78,11 +78,13 @@
     - title: Mechanism Design on Social Network
       items: 
         - Matching on Social Network
-        - Mechanism Design in Reality
+        - Mechanism Design in reality
           #    - title: Ideology Criticism
           #items:
           #- Psychoanalysis  
     - title: Computer Science Education
+      items:
+        - Teaching programming for students in different backgrounds
 
 - title: Other Interests
   type: list
