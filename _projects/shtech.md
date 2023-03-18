@@ -2,7 +2,7 @@
 layout: page
 title: Be One of the Sparkling Stars
 description: A promotion song for ShanghaiTech University.
-img: 
+img: stars.png
 importance: 2
 category: complete
 ---
