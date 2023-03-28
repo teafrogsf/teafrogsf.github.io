@@ -9,7 +9,7 @@ category: complete
 
 {% include embed_audio.html src="/assets/audio/Straw.wav" %}
 
-A complicated-style music. Vocal is a part of instruments, so don't worry if you can't speak Chinese.
+A complicated-style music. Vocal is a part of instruments, so don't worry if you don't speak Chinese.
 
 Note that the audio is uncompressed, so it may take you some time to load.
 
