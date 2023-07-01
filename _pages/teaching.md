@@ -3,7 +3,7 @@ layout: teaching
 permalink: /teaching/
 title: teaching
 description: I hope to help everyone learn how to survive in academia.
-nav: true
+nav: false
 nav_order: 4
 ---
 
