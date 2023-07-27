@@ -47,19 +47,19 @@ As the summer course is scheduled to start on approximately ~~July 31st~~ August
 
 - Teaching
 
-Although delivering lectures in a 1 VS 300 online classroom is an incredibly challenging task, we still hope to provide everyone with the best possible classroom experience. We are seeking individuals with substantial experience in teaching large classes, who understand how to control the pace and structure key points in a non-interactive setting. We can provide reference slides and course outlines, and we warmly welcome your involvement in their design.
+Although delivering lectures in a 1 VS 300 online classroom is an incredibly challenging task, we still hope to provide everyone with the best possible classroom experience. We are seeking individuals with **substantial experience in teaching large classes**, who understand how to control the pace and structure key points in a non-interactive setting. We can provide reference slides and course outlines, and we warmly welcome your involvement in their design.
 
-Furthermore, as we anticipate focusing on example problems in the latter part of the course, experience in demonstrating code writing from scratch would also be valuable. Your participation in designing example problems and assignments would be greatly appreciated.
+Furthermore, as we anticipate focusing on example problems in the latter part of the course, experience in **demonstrating code writing** from scratch would also be valuable. Your participation in designing example problems and assignments would be greatly appreciated.
 
 If you are interested in contributing to **either or both** of these two aspects, we look forward to hearing from you. We are looking for 1-2 instructors.
 
 - Q&A, Office Hour
 
-As practice and Q&A are essential parts of the Python introductory course, we are in great need of teaching assistants to answer students' questions. We understand that during the Q&A process, you may encounter special situations and potential work and mental pressures. Therefore, we expect to continue using platforms like Piazza for Q&A and Tencent Meeting or similar platforms for Office Hours, with the aim of reducing your workload as much as possible.
+As practice and Q&A are essential parts of the Python introductory course, we are in great need of teaching assistants to **answer students' questions**. We understand that during the Q&A process, you may encounter special situations and potential work and mental pressures. Therefore, we expect to continue using platforms like Piazza for Q&A and Tencent Meeting or similar platforms for Office Hours, with the aim of reducing your workload as much as possible.
 
 We hope you have experience in searching for and answering questions in both Chinese and English (you do not need to have *formal* English writing skills, but the ability to search for information in English on the internet and express yourself is desired). Additionally, having some available time for Office Hours is necessary. You should have a reasonable understanding of Python syntax and features, but there is no need to be proficient in all aspects. We encourage the exploration and exchange of technical issues. If you frequently help others one-on-one (or in a group), that would be even better.
 
-We are looking forr at least 10 or more teaching assistants, and the more, the better.
+We are looking for at least 10 or more teaching assistants, and the more, the better.
 
 - Others
 
@@ -84,9 +84,9 @@ Therefore, you do not need to be an expert in a specific field, and the level of
 
 Please note that this is not about being *politically correct*. The lack of diversity is a serious issue that has **persistently existed** in our previous teaching teams.
 
-We welcome and encourage female students (regardless of sex or gender) to participate in our program. Despite the most people in SIST or in ShanghaiTech University are male, from my personal experience in major teaching discussions, the representation of women (especially *as women*, rather than assimilated into male-dominated community) has often been lacking. We need your support and strength.
+We welcome and encourage **female students** (regardless of sex or gender) to participate in our program. Despite the most people in SIST or in ShanghaiTech University are male, from my personal experience in major teaching discussions, the representation of women (especially *as women*, rather than assimilated into male-dominated community) has often been lacking. We need your support and strength.
 
-We also welcome and encourage non-SIST students to participate in our program. In our past teaching experiences, we observed significant differences in the understanding of this course between SIST students and those from other schools. These discrepancies may be related to their varying perceptions of the course's relevance. However, we have found that the current teaching content and methods are not entirely suitable for all students. Therefore, we need input and suggestions from non-SIST students to improve the teaching effectiveness of this course.
+We also welcome and encourage **non-SIST students** to participate in our program. In our past teaching experiences, we observed significant differences in the understanding of this course between SIST students and those from other schools. These discrepancies may be related to their varying perceptions of the course's relevance. However, we have found that the current teaching content and methods are not entirely suitable for all students. Therefore, we need input and suggestions from non-SIST students to improve the teaching effectiveness of this course.
 
 ### Contact
 
