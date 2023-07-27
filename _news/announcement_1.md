@@ -2,7 +2,7 @@
 layout: post
 title: We are establishing SI 100+ Saving Project.
 date: 2023-07-23 18:00:00+0800
-inline: false
+inline: true
 ---
 
 This document follows the CC4.0 BY-NC-SA license.
