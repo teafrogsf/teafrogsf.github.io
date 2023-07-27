@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We are now establishing **SI 100+ Saving Project**.
+title: We are now establishing SI 100+ Saving Project.
 date: 2023-07-23 18:00:00+0800
 inline: false
 ---
