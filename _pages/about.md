@@ -18,9 +18,11 @@ selected_papers: false # true # includes a list of papers marked as "selected={t
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there. I am a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/) and an undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). My current research interest is Algorithm Game Theory (AGT), particularly **Mechanism Design on Social Network**. In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways.
+Hi there. I am a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/) and a rising senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). Currently, I am a research assistant in [Center on Frontiers of Computing Studies (CFCS)](http://cfcs.pku.edu.cn/) at Peking University, advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/).  My current research interest is Algorithmic Game Theory (AGT), particularly **Mechanism Design on Social Network**. In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways. 
 
 I am not a traditional CS student. I am interested in idealism, particularly ideological criticism. **I love teaching** and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music with AI.
+
+**I am looking for a Ph.D position in Fall 2024 or Fall 2025.**
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
