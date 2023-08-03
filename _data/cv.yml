@@ -21,6 +21,9 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: Peking University
+      year: 2023 - Now
     - title: (Head) Teaching Assistant
       institution: 'SI 100B & 100F: Introduction to Information Science and Technology'
       year: 2021 - Now
@@ -70,7 +73,7 @@
         - 3rd Prize, Rank 100
     - year: 2022
       items: 
-        - Outstanding Teaching Assistant
+        - Outstanding Teaching Assistant (Best in SI 100B & SI 100F)
 
 - title: Academic Interests
   type: nested_list
@@ -78,13 +81,16 @@
     - title: Mechanism Design on Social Network
       items: 
         - Double Auction on Social Network
-        - Mechanism Design in reality
+        - Mechanism Design on Social Network in reality
+    - title: Mechanism Design on Ad Auctions
+      items: 
+        - Effeciency Bound in Auto Bidding
           #    - title: Ideology Criticism
           #items:
           #- Psychoanalysis  
     - title: Computer Science Education
       items:
-        - Teaching programming for students in different backgrounds
+        - Teaching programming and information science for students in different backgrounds
 
 - title: Other Interests
   type: list
