@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ycao262@wisc.edu / caoyh1@shanghaitech.edu.cn
+subtitle: caoyh1@shanghaitech.edu.cn / ycao262@wisc.edu
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: false # true # includes a list of papers marked as "selected={t
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there. I am a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/) and a rising senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). Currently, I am a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). 
+Hi there. I am a rising senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). Currently, I am a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I was a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/).
 
 My current research interest is Algorithmic Game Theory (AGT), particularly **Mechanism Design on Social Networks** and **Mechanism Design on Ad Auctions**. In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways. 
 
