@@ -22,8 +22,11 @@
   type: time_table
   contents:
     - title: Research Intern
+      institution: Microsoft Research Asia
+      year: 2024 - Now
+    - title: Research Intern
       institution: Peking University
-      year: 2023 - Now
+      year: 2023 - 2023
     - title: (Head) Teaching Assistant
       institution: 'SI 100B & 100F: Introduction to Information Science and Technology'
       year: 2021 - Now
@@ -64,6 +67,9 @@
   type: time_table
   contents:
     - year: 2022
+      items:
+        - Merit Student (7%)
+    - year: 2022
       items: 
         - ICPC EC Final
         - 1st in Honorable Mention
@@ -78,6 +84,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Graph Neural Network
     - title: Mechanism Design on Social Network
       items: 
         - Double Auction on Social Network
