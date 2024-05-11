@@ -18,11 +18,15 @@ selected_papers: false # true # includes a list of papers marked as "selected={t
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/).
+# CONNECT with us.
 
-My current research interest is Algorithmic Game Theory (AGT), particularly **Mechanism Design on Social Networks** and **Mechanism Design on Ad Auctions**. In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways. 
+Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/).
 
-I am not a traditional CS student. I am interested in idealism, particularly ideological criticism. **I love teaching** and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music with AI.
+My research interest is about *CONNECTION*. Specifically, I am intrigued about how to design incentive compatible mechanisms on social networks, which mainly falls within the field of **Algorithmic Game Theory (AGT)**. I am also interested in how to capture the relationships between different variables using deep learning methods, and as a result, I am currently researching **Graph Neural Networks (GNN)**, particularly the use of graph neural networks for the analysis of time series.
+
+In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways. 
+
+**I love teaching** and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music with AI.
 
 **I am looking for a Ph.D position in Fall 2025.**
 
