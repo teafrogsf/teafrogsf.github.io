@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 来自未来的故事 / Future Last（Acoustic Version）
+title: 来自未来的故事 / Future Last（Acoustic Ver.）
 description: A theme of ShanghaiTech University Graduation Ceremony Video for SIST Class 2024.
-img: assets/img/stars.png
+img: assets/img/futurelast.png
 importance: 0
 category: complete
 ---
