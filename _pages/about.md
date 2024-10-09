@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: caoyh1@shanghaitech.edu.cn / ycao262@wisc.edu
+subtitle: caoyh1@shanghaitech.edu.cn / yc7913@nyu.edu
 
 profile:
   align: right
