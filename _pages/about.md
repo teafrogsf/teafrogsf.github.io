@@ -20,6 +20,8 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT*.
 
+Currently, I am:
+
 - Research Intern @ [Microsoft Research Asia](https://www.msra.cn/)
 - Research Intern @ [Shanghai Qi Zhi Institute](https://www.msra.cn/), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
 - Undergraduate Researcher @ [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html), [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Dengji Zhao](http://dengji-zhao.net/)
