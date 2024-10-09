@@ -20,13 +20,29 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT*.
 
-Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/).
+Research Intern @ [Microsoft Research Asia](https://www.msra.cn/)
 
-My research interest is about *CONNECTION*. Specifically, I am intrigued about how to design incentive compatible mechanisms on social networks, which mainly falls within the field of **Algorithmic Game Theory (AGT)**. I am also interested in how to capture the relationships between different variables using deep learning methods, and as a result, I am currently researching **Graph Neural Networks (GNN)**, particularly the use of graph neural networks for the analysis of time series.
+Research Intern @ [Shanghai Qi Zhi Institute](https://www.msra.cn/), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
+
+Teaching Associate @ [New York University Shanghai](https://shanghai.nyu.edu/)
+
+Undergraduate Researcher @ [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html), [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Dengji Zhao](http://dengji-zhao.net/)
+
+Previously, I was:
+
+Research Intern @ [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm), [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/)
+
+Visiting Student @ [University of Wisconsin - Madison](https://www.wisc.edu/)
+
+<!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
+
+Hi there. My research interest is about *CONNECTION*. I am researching **Large Language Models (LLMs)** and **Multi-Agent System (MAS)**. In terms of theory, I am intrigued about how to design incentive compatible mechanisms on social networks, which mainly falls within the field of **Algorithmic Game Theory (AGT)**. I mainly focus on the intersection of LLM and AGT as well as the reasoning capabilities of LLMs.
+
+I am also interested in how to capture the relationships between different variables using deep learning methods, and as a result, I am currently researching **Graph Neural Networks (GNN)**, particularly the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on.
 
 In addition to making breakthroughs in theory, I am also interested in how mechanism can help people in practical ways. 
 
-**I love teaching** and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music with AI.
+**I love teaching** and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music (with AI).
 
 **I am looking for a Ph.D position in Fall 2025.**
 
