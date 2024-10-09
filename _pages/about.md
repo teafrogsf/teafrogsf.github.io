@@ -20,19 +20,15 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT*.
 
-Research Intern @ [Microsoft Research Asia](https://www.msra.cn/)
-
-Research Intern @ [Shanghai Qi Zhi Institute](https://www.msra.cn/), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
-
-Teaching Associate @ [New York University Shanghai](https://shanghai.nyu.edu/)
-
-Undergraduate Researcher @ [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html), [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Dengji Zhao](http://dengji-zhao.net/)
+- Research Intern @ [Microsoft Research Asia](https://www.msra.cn/)
+- Research Intern @ [Shanghai Qi Zhi Institute](https://www.msra.cn/), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
+- Undergraduate Researcher @ [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html), [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Dengji Zhao](http://dengji-zhao.net/)
+- Teaching Associate @ [New York University Shanghai](https://shanghai.nyu.edu/)
 
 Previously, I was:
 
-Research Intern @ [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm), [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/)
-
-Visiting Student @ [University of Wisconsin - Madison](https://www.wisc.edu/)
+- Research Intern @ [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm), [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/)
+- Visiting Student @ [University of Wisconsin - Madison](https://www.wisc.edu/)
 
 <!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
 

@@ -22,6 +22,9 @@
   type: time_table
   contents:
     - title: Research Intern
+      institution: Shanghai Qi Zhi Institute
+      year: 2024 - Now
+    - title: Research Intern
       institution: Microsoft Research Asia
       year: 2024 - Now
     - title: Research Intern
@@ -31,6 +34,9 @@
       institution: 'SI 100B & 100F: Introduction to Information Science and Technology'
       year: 2021 - Now
       description: You could see details in "teaching" for my TA experience.
+    - title: Teaching Associate
+      institution: 'CSCI-SHU 210: Data Structures'
+      year: 2024 - Now
     - title: Teaching Assistant
       institution: 'CS 101: Algorithms and Data Structures'
       year: 2022 - Now
