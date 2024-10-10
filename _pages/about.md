@@ -18,7 +18,7 @@ selected_papers: false # true # includes a list of papers marked as "selected={t
 social: true  # includes social icons at the bottom of the page
 ---
 
-## *CONNECT*.
+## *CONNECT THE WORLD*.
 
 Currently, I am:
 
