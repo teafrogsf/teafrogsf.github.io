@@ -26,7 +26,7 @@
       year: 2024 - Now
     - title: Research Intern
       institution: Microsoft Research Asia
-      year: 2024 - Now
+      year: 2024 - 2024
     - title: Research Intern
       institution: Peking University
       year: 2023 - 2023
@@ -76,6 +76,9 @@
       items:
         - CCPC Shanghai
         - 2nd Prize, Rank 20
+    - year: 2024, 2022
+      items: 
+        - Outstanding Teaching Assistant (Best in SI 100B & SI 100F)
     - year: 2022
       items:
         - Merit Student (7%)
@@ -87,24 +90,19 @@
       items: 
         - CCPC Weihai Regional
         - 3rd Prize, Rank 100
-    - year: 2022
-      items: 
-        - Outstanding Teaching Assistant (Best in SI 100B & SI 100F)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Graph Neural Network
-    - title: Mechanism Design on Social Network
-      items: 
-        - Double Auction on Social Network
-        - Mechanism Design on Social Network in reality
-    - title: Mechanism Design on Ad Auctions
-      items: 
-        - Effeciency Bound in Auto Bidding
-          #    - title: Ideology Criticism
-          #items:
-          #- Psychoanalysis  
+    - title: (Large) Language Models
+      items:
+        - Ontology and Epistemology of LLMs
+        - Mechanism Design on LLM Agents
+        - Reasoning Capabilities of LLMs
+    - title: Algorithmic Game Theory
+      items:
+        - Mechanism Design on Graphs / Social Network
+        - Mechanism Design on Auto-bidding
     - title: Computer Science Education
       items:
         - Teaching programming and information science for students in different backgrounds
