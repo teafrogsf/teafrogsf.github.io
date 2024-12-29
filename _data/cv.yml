@@ -74,6 +74,10 @@
   contents:
     - year: 2024
       items:
+        - ICPC Hongkong Regional
+        - 2nd Prize
+    - year: 2024
+      items:
         - CCPC Shanghai
         - 2nd Prize, Rank 20
     - year: 2024, 2022
@@ -101,8 +105,9 @@
         - Reasoning Capabilities of LLMs
     - title: Algorithmic Game Theory
       items:
+        - Mechanism Design on LLM Agents
         - Mechanism Design on Graphs / Social Network
-        - Mechanism Design on Auto-bidding
+        - Human Behaviors
     - title: Computer Science Education
       items:
         - Teaching programming and information science for students in different backgrounds
@@ -111,4 +116,4 @@
   type: list
   contents:
     - <u>Composing & Mixing Music:</u> Semi-professional
-    - <u>Writing</u>
+    - <u>(Non-fiction) Writing</u>
