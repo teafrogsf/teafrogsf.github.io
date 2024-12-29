@@ -28,7 +28,7 @@ Currently, I am:
 
 Previously, I was:
 
-- Research Intern @ [Microsoft Research Asia](https://www.msra.cn/)
+- Research Intern @ [Microsoft Research Asia](https://www.msra.cn/), advised by [Dr. Dongsheng Li](http://recmind.cn/)
 - Research Intern @ [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm), [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/)
 - Visiting Student @ [University of Wisconsin - Madison](https://www.wisc.edu/)
 
@@ -38,7 +38,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 I am intrigued about how to design incentive compatible mechanisms on graphs (especially social networks), which mainly falls within the field of **Algorithmic Game Theory (AGT)**. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems.
 
-I also works on how multi-agent systems connect with human society. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions), which closely ties to game theory. At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of sociology, anthropology, economics, psychology, philosophy, and LLMs. I believe it is crucial to study whether language models can genuinely take on roles within a real social context.
+I also works on **how multi-agent systems connect with human society**. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions), which closely ties to game theory. At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of *sociology, anthropology, economics, psychology, philosophy, and LLMs*. I believe it is crucial to study whether language models can genuinely take on roles within a real social context.
 
 Previously I worked on how to capture the relationships between different variables using deep learning methods. I was mainly focusing on **Electroencephalogram (EEG)** and **Graph Neural Networks (GNN)**. I am also interested in the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on.
 
