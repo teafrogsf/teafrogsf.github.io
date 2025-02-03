@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 Currently, I am:
 
-- Research Intern @ [Shanghai Qi Zhi Institute](https://www.msra.cn/), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
+- Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
 - Undergraduate Researcher @ [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html), [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Dengji Zhao](http://dengji-zhao.net/)
 - Teaching Associate @ [New York University Shanghai](https://shanghai.nyu.edu/)
 
