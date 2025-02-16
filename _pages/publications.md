@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: '*' means equal contribution and '†' means corresponding author.
+description: The symbol * means equal contribution and † means corresponding author.
 years: [2024, 2025]
 nav: true
 nav_order: 1
