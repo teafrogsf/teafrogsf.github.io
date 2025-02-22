@@ -39,12 +39,14 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 **My current research interest:**
 
 1. Are **LLM-based multi-agent systems** sufficiently **secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
+2. How can we **attack the reasoning process** of LLMs? How can we **prove the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) contribute to these studies?
 2. How can LLMs truly engage in meaningful **role-playing or writing**? These two are similar in that they both reflect the linguistic state of **a real, specific human**.  
 3. How can we examine or reflect on LLMs (and multi-agent systems) from **an anthropological perspective**?
 
 <!-- 1. LLM组成的多智能体系统足够安全和有效率吗？如何设计有价值的机制来保证这一点？
-2. LLM到底如何进行真正有价值的角色扮演/写作？这两者有相似之处，因为它们能够体现一个真实的具体的人类在语言上的状态。
-3. 如何从人类学的角度考量或反思LLM（以及LLM组成的多智能体系统）？ -->
+2. 如何攻击LLMs的推理过程？如何证明reasoning model中存在的固定缺陷？如何区分不同LLMs的错误模式？此外，competitive-level problems (including Olympiad Informatics problems)能否在这些研究中有所帮助？
+3. LLM到底如何进行真正有价值的角色扮演/写作？这两者有相似之处，因为它们能够体现一个真实的具体的人类在语言上的状态。
+4. 如何从人类学的角度考量或反思LLM（以及LLM组成的多智能体系统）？ -->
 
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
