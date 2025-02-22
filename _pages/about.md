@@ -38,8 +38,8 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 **My current research interest:**
 
-1. Are LLM-based multi-agent systems sufficiently **secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
-2. How can LLMs truly engage in meaningful role-playing or writing? These two are similar in that they both reflect the linguistic state of **a real, specific human**.  
+1. Are **LLM-based multi-agent systems** sufficiently **secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
+2. How can LLMs truly engage in meaningful **role-playing or writing**? These two are similar in that they both reflect the linguistic state of **a real, specific human**.  
 3. How can we examine or reflect on LLMs (and multi-agent systems) from **an anthropological perspective**?
 
 <!-- 1. LLM组成的多智能体系统足够安全和有效率吗？如何设计有价值的机制来保证这一点？
