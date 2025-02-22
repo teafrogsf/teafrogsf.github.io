@@ -36,6 +36,19 @@ Previously, I was:
 
 Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent System (MAS)**. 
 
+**My current research interest:**
+
+1. Are LLM-based multi-agent systems sufficiently **secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
+2. How can LLMs truly engage in meaningful role-playing or writing? These two are similar in that they both reflect the linguistic state of **a real, specific human**.  
+3. How can we examine or reflect on LLMs (and multi-agent systems) from **an anthropological perspective**?
+
+<!-- 1. LLM组成的多智能体系统足够安全和有效率吗？如何设计有价值的机制来保证这一点？
+2. LLM到底如何进行真正有价值的角色扮演/写作？这两者有相似之处，因为它们能够体现一个真实的具体的人类在语言上的状态。
+3. 如何从人类学的角度考量或反思LLM（以及LLM组成的多智能体系统）？ -->
+
+**If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
+
+
 I am intrigued about how to design incentive compatible mechanisms on graphs (especially social networks), which mainly falls within the field of **Algorithmic Game Theory (AGT)**. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems.
 
 I also works on **how multi-agent systems connect with human society**. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions), which closely ties to game theory. At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of *sociology, anthropology, economics, psychology, philosophy, and LLMs*. I believe it is crucial to study whether language models can genuinely take on roles within a real social context.
