@@ -34,7 +34,7 @@ Previously, I was:
 
 <!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
 
-**I am actively looking for a Ph.D./RA position in Fall 2025.**
+<p style="background-color:rgb(240,10,0)"> <b>I am actively looking for a Ph.D./RA position in Fall 2025.</b> </p>
 
 Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent System (MAS)**. 
 
