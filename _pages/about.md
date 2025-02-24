@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: caoyh1@shanghaitech.edu.cn / yc7913@nyu.edu
+subtitle: caoyh1@shanghaitech.edu.cn
 
 profile:
   align: right
@@ -41,12 +41,14 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 1. Are **LLM-based multi-agent systems** sufficiently **secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
 2. How can we **attack the reasoning process** of LLMs? How can we **prove the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) contribute to these studies?
 3. How can LLMs truly engage in meaningful **role-playing or writing**? These two tasks are similar in that they both reflect the linguistic state of **a real, specific human**.  
-4. How can we examine or reflect on LLMs (and multi-agent systems) from **an anthropological perspective**?
+4. How can we examine or reflect on LLMs (and multi-agent systems) from **an anthropological perspective**? Can we **construct a *culture*** for multi-agent systems? Furthermore, how can we **evaluate the real value** of highly metric-driven multi-agent systems for humans?
+5. How do **language models *model* language**? How is the **concept of language** represented within language models? Can we understand the representation of (even multimodal) linguistic concepts in language models through **probing models**? Can modern and contemporary **philosophy of language** (continental or analytic) help reshape our understanding of these questions?
 
 <!-- 1. LLM组成的多智能体系统足够安全和有效率吗？如何设计有价值的机制来保证这一点？
 2. 如何攻击LLMs的推理过程？如何证明reasoning model中存在的固定缺陷？如何区分不同LLMs的错误模式？此外，competitive-level problems (including Olympiad Informatics problems)能否在这些研究中有所帮助？
 3. LLM到底如何进行真正有价值的角色扮演/写作？这两者有相似之处，因为它们能够体现一个真实的具体的人类在语言上的状态。
-4. 如何从人类学的角度考量或反思LLM（以及LLM组成的多智能体系统）？ -->
+4. 如何从人类学的角度考量或反思LLM（以及LLM组成的多智能体系统）？我们是否能构建多智能体系统的“文化”？此外，我们如何评估高度指标化的多智能体系统对人类的真实价值？
+5. 语言模型如何建模语言？如何理解语言的概念在语言模型中的体现？能否通过probing model理解（甚至是多模态的）语言的概念在语言模型中的体现？近现代的语言哲学能否对重塑我们的理解有所帮助？ -->
 
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
