@@ -54,6 +54,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
+---
 
 I am intrigued about how to design incentive compatible mechanisms on graphs (especially social networks), which mainly falls within the field of **Algorithmic Game Theory (AGT)**. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems.
 
