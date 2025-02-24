@@ -44,7 +44,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 2. How can we **attack the reasoning process** of LLMs? How can we **prove the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) contribute to these studies?
 3. How can LLMs truly engage in meaningful **role-playing or writing**? These two tasks are similar in that they both reflect the linguistic state of **a real, specific human**.  
 4. How can we examine or reflect on LLMs (and multi-agent systems) from **an anthropological perspective**? Can we **construct a culture** for multi-agent systems? Furthermore, how can we **evaluate the real value** of highly metric-driven multi-agent systems for humans?
-5. **How do language models model language**? How is the **concept of language** represented within language models? Can we understand the representation of (even multimodal) linguistic concepts in language models through **probing models**? Can modern and contemporary **philosophy of language** (continental or analytic) help reshape our understanding of these questions?
+5. **How do language models model language**? Can we understand the **representation of (even multimodal) linguistic concepts** in language models through **probing models**? Can modern and contemporary **philosophy of language** (continental or analytic) help reshape our understanding of these questions?
 
 <!-- 1. LLM组成的多智能体系统足够安全和有效率吗？如何设计有价值的机制来保证这一点？
 2. 如何攻击LLMs的推理过程？如何证明reasoning model中存在的固定缺陷？如何区分不同LLMs的错误模式？此外，competitive-level problems (including Olympiad Informatics problems)能否在这些研究中有所帮助？
