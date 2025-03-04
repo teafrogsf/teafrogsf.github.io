@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: caoyh1@shanghaitech.edu.cn
+subtitle: caoyh1@shanghaitech.edu.cn / yuhanteafrog@gmail.com
 
 profile:
   align: right
@@ -54,11 +54,18 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
+I am very passionate about communicating with people. If you would like to discuss our shared research interests with me, or if you are my student (in SI 100B, SI 100+, or other courses) and want to chat for advice (though I am just getting started on many things myself), feel free to reach out anytime. You can also directly <!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yuhanteafrog/30min'});return false;">book a time with me through Calendly.</a>
+<!-- Calendly link widget end -->
+
+
 ---
 
-I am intrigued about how to design incentive compatible mechanisms on graphs (especially social networks), which mainly falls within the field of **Algorithmic Game Theory (AGT)**. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems.
+I works on **how multi-agent systems connect with human society**. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions), which closely ties to game theory. At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of *sociology, anthropology, economics, psychology, philosophy, and LLMs*. I believe it is crucial to study whether language models can genuinely take on roles within a real social context.
 
-I also works on **how multi-agent systems connect with human society**. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions), which closely ties to game theory. At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of *sociology, anthropology, economics, psychology, philosophy, and LLMs*. I believe it is crucial to study whether language models can genuinely take on roles within a real social context.
+I am also intrigued about how to design (incentive-compatible) mechanisms on graphs or multi-agent systems, which mainly falls within the field of **Algorithmic Game Theory (AGT)**. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems.
 
 Previously I worked on how to capture the relationships between different variables using deep learning methods. I was mainly focusing on **Electroencephalogram (EEG)** and **Graph Neural Networks (GNN)**. I am also interested in the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on.
 
