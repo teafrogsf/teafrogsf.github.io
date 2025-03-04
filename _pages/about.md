@@ -18,6 +18,14 @@ selected_papers: false # true # includes a list of papers marked as "selected={t
 social: true  # includes social icons at the bottom of the page
 ---
 
+<style>
+  details {
+      margin-top: 1em;
+      margin-bottom: 1em;
+  }
+</style>
+
+
 ## *CONNECT THE WORLD*.
 
 Currently, I am:
