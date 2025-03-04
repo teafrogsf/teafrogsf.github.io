@@ -54,9 +54,6 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
-I am very passionate about communicating with people. If you would like to discuss our shared research interests, or if you are my student (in SI 100B, SI 100+, or other courses) and want to chat for advice (though I am just getting started on many things myself), feel free to reach out anytime. You can also <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"> <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yuhanteafrog/30min'});return false;"> book a time with me through Calendly.</a>
-
-
 ---
 
 I works on **how multi-agent systems connect with human society**. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions), which closely ties to game theory. At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of *sociology, anthropology, economics, psychology, philosophy, and LLMs*. I believe it is crucial to study whether language models can genuinely take on roles within a real social context.
@@ -65,8 +62,12 @@ I am also intrigued about how to design (incentive-compatible) mechanisms on gra
 
 Previously I worked on how to capture the relationships between different variables using deep learning methods. I was mainly focusing on **Electroencephalogram (EEG)** and **Graph Neural Networks (GNN)**. I am also interested in the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on.
 
-**I love teaching** and have been involved in the design of several courses as a TA. Now I am committed to promoting curriculum reform in my university. I am also interested in composing and mixing music (with AI).
+**I love teaching** and have been involved in the design of several courses as a TA. I am doing my best to reduce inequalities in course teaching and help everyone gain the same knowledge as much as possible. 
 
+I am very passionate about communicating with people. If you would like to discuss our shared research interests, or if you are my student (in SI 100B, SI 100+, or other courses) and want to chat for advice (though I am just getting started on many things myself), feel free to reach out anytime. You can also <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"> <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yuhanteafrog/30min'});return false;"> book a time with me through Calendly.</a>
+
+
+I am also interested in (non-fiction) writing and composing/mixing music.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
