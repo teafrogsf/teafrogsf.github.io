@@ -54,10 +54,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
-I am very passionate about communicating with people. If you would like to discuss our shared research interests with me, or if you are my student (in SI 100B, SI 100+, or other courses) and want to chat for advice (though I am just getting started on many things myself), feel free to reach out anytime. 
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yuhanteafrog/30min'});return false;"> You can also book a time with me through Calendly.</a>
+I am very passionate about communicating with people. If you would like to discuss our shared research interests, or if you are my student (in SI 100B, SI 100+, or other courses) and want to chat for advice (though I am just getting started on many things myself), feel free to reach out anytime. You can also <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"> <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yuhanteafrog/30min'});return false;"> book a time with me through Calendly.</a>
 
 
 ---
