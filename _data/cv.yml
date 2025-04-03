@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 9th July 2002 # 14th March 1879
     - name: Languages
-      value: Chinese, English # English, German
+      value: Chinese, English, French (Beginner), Japanese (Beginner) # English, German
 
 - title: Education
   type: time_table
@@ -64,7 +64,7 @@
         - A course evaluation website with comprehensive grading. Students can post their comments and discussion about courses.
         - Project manager
     - title: <a href="https://github.com/hydro-dev/Hydro">HydroOJ</a>
-      year: 2022 - Now
+      year: 2022 - 2023
       description:
         - A high-performance online judge system. It is easy to deploy (with install script), light weight and extensible.
         - UX
@@ -100,12 +100,13 @@
   contents:
     - title: (Large) Language Models
       items:
-        - Ontology and Epistemology of LLMs
-        - Mechanism Design on LLM Agents
+        - Mechanism Design on LLM (Agents)
         - Reasoning Capabilities of LLMs
+        - Writing in LLMs
+        # - Ontology and Epistemology of LLMs
     - title: Algorithmic Game Theory
       items:
-        - Mechanism Design on LLM Agents
+        - Mechanism Design on LLM (Agents)
         - Mechanism Design on Graphs / Social Network
         - Human Behaviors
     - title: Computer Science Education
