@@ -44,7 +44,7 @@ Previously, I was:
 
 **I am actively looking for a Ph.D./RA position in Fall 2025.**
 
-Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent System (MAS)**. 
+Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. 
 
 **My current research interest:**
 
