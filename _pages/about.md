@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: caoyh1@shanghaitech.edu.cn / yuhanteafrog@gmail.com
+subtitle: yuhanteafrog@gmail.com
 
 profile:
   align: right
@@ -28,6 +28,8 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT THE WORLD*.
 
+I'll be joining UC Berkeley as a research assistant starting this summer.
+
 Currently, I am:
 
 - Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
@@ -41,8 +43,6 @@ Previously, I was:
 - Teaching Associate @ [New York University Shanghai](https://shanghai.nyu.edu/)
 
 <!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
-
-**I am actively looking for a Ph.D./RA position in Fall 2025.**
 
 Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. 
 
@@ -68,11 +68,13 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 <details>
   <summary>Here are my research experience and details. </summary>
 
-  <p>I works on <strong>how multi-agent systems connect with human society</strong>. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-computer interactions). At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of <em>sociology, anthropology, economics, psychology, philosophy, and LLMs</em>. I believe it is crucial to study whether language models can genuinely take on roles within a real social context. </p>
+  <p>I works on <strong>how language models or multi-agent systems connect with human society</strong>. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-ai collaborations). At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of <em>sociology, anthropology, economics, psychology, philosophy, and LLMs</em>. I believe it is crucial to study whether language models can genuinely take on roles within a real social context. </p>
+  
+  <p>I also works on reasoning capabilities on language models, especially on competitive programming.</p>
 
-  <p>I am also intrigued about how to design (incentive-compatible) mechanisms on graphs or multi-agent systems, which mainly falls within the field of <strong>Algorithmic Game Theory (AGT)</strong>. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems. </p>
+  <p>I am intrigued about how to design (incentive-compatible) mechanisms on graphs or multi-agent systems, which mainly falls within the field of <strong>Algorithmic Game Theory (AGT)</strong>. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems. </p>
 
-  <p>Previously I worked on how to capture the relationships between different variables using deep learning methods. I was mainly focusing on <strong>Electroencephalogram (EEG)</strong> and <strong>Graph Neural Networks (GNN)</strong>. I am also interested in the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on. </p>
+  <p>Previously I worked on how to capture the relationships between different variables using deep learning methods. I was mainly focusing on <strong>Electroencephalogram (EEG)</strong> and <strong>Graph Neural Networks (GNN)</strong>. I was also interested in the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on. </p>
 </details>
 
   **I love teaching** and have been involved in the design of several courses as a TA. I am doing my best to reduce inequalities in course teaching and help everyone gain the same knowledge as much as possible.
