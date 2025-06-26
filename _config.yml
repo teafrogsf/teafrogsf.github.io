@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yuhan # You
 middle_name: # R.
 last_name: Cao # Name
-email: caoyh1@shanghaitech.edu.cn # you@example.com
+email: yuhanteafrog@gmail.com # you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Gazing up into the darkness. # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -71,7 +71,7 @@ github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: yuhan-cao-832b202b6 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
