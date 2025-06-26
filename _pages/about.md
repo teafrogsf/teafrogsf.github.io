@@ -28,6 +28,8 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT THE WORLD*.
 
+I'll be joining UC Berkeley as a research assistant starting this summer.
+
 Currently, I am:
 
 - Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
