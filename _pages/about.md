@@ -28,7 +28,7 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT THE WORLD*.
 
-I'll be joining UC Berkeley as a research assistant starting this summer.
+I'll be joining UC Berkeley as a research fellow starting this summer.
 
 Currently, I am:
 
