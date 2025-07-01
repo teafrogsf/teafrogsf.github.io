@@ -27,10 +27,10 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT THE WORLD*.
 
-Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. I am a Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
+Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. I am a Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/).
 
 <details>
-  <summary>Previously, I was: </summary>
+  <summary>I've had the privilege to learn and collaborate at the following institutions. </summary>
 
 <ul>
 <li>Undergraduate Researcher @ <a href="http://dengji-zhao.net/smart/index.html">The ShanghaiTech Multi-Agent systems Research Team (SMART)</a>, <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, advised by <a href="http://dengji-zhao.net/">Prof. Dengji Zhao</a></li>
