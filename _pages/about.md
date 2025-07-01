@@ -25,30 +25,26 @@ social: true  # includes social icons at the bottom of the page
   }
 </style>
 
-
 ## *CONNECT THE WORLD*.
 
-I'll be joining UC Berkeley as a research fellow starting this summer.
-
-Currently, I am:
-
-- Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
+Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. I am a Research Intern @ [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en), advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
 
 <details>
   <summary>Previously, I was: </summary>
 
 <ul>
-<li>Undergraduate Researcher @ <a href="http://dengji-zhao.net/smart/index.html">The ShanghaiTech Multi-Agent systems Research Team (SMART)</a>, [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Dengji Zhao](http://dengji-zhao.net/)</li>
-<li>Research Intern @ [Microsoft Research Asia](https://www.msra.cn/), advised by [Dr. Dongsheng Li](http://recmind.cn/)</li>
-<li>Research Intern @ [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm), [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/)</li>
-<li>Visiting Student @ [University of Wisconsin - Madison](https://www.wisc.edu/)</li>
-<li>Teaching Associate @ [New York University Shanghai](https://shanghai.nyu.edu/)</li>
-</u'l>
+<li>Undergraduate Researcher @ <a href="http://dengji-zhao.net/smart/index.html">The ShanghaiTech Multi-Agent systems Research Team (SMART)</a>, <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, advised by <a href="http://dengji-zhao.net/">Prof. Dengji Zhao</a></li>
+<li>Research Intern @ <a href="https://www.msra.cn/">Microsoft Research Asia</a>, advised by <a href="http://recmind.cn/">Dr. Dongsheng Li</a></li>
+<li>Research Intern @ <a href="https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm">Prof. Xiaotie Deng</a>'s <a href="https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm">daGAME Lab</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, advised by <a href="https://daleczh.github.io/">Dr. Zhaohua Chen</a></li>
+<li>Visiting Student @ <a href="https://www.wisc.edu/">University of Wisconsin - Madison</a></li>
+<li>Teaching Associate @ <a href="https://shanghai.nyu.edu/">New York University Shanghai</a></li>
+</ul>
 </details>
+
+I'll be joining UC Berkeley as a Research Fellow starting this summer. 
 
 <!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
 
-Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. 
 
 **My current research interest:**
 
