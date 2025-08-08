@@ -3,7 +3,7 @@ layout: page
 title: Straw
 description: My first complete work.
 img: assets/img/12_new.jpg
-importance: 1
+importance: 2
 category: complete
 ---
 
@@ -12,7 +12,6 @@ category: complete
 A complicated-style music. Vocal is a part of instruments, so don't worry if you don't speak Chinese.
 
 Note that the audio is uncompressed, so it may take you some time to load.
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

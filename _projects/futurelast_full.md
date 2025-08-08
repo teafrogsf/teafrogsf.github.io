@@ -2,7 +2,7 @@
 layout: page
 title: 来自未来的故事 / FutureLast
 description: My first live song.
-img: assets/img/futurelast.jpg
+img: assets/img/futurelast_pv.jpg
 importance: 0
 category: complete
 ---
