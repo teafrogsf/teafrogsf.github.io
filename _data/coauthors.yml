@@ -14,9 +14,21 @@
   - firstname: ["Yiyou"]
     url: https://sunyiyou.github.io/
 
+"Bai":
+  - firstname: ["Haoyue"]
+    url: https://haoyuebaizju.github.io/
+
 "Song":
   - firstname: ["Dawn"]
     url: https://dawnsong.io/
+
+"Dziri":
+  - firstname: ["Nouha"]
+    url: https://nouhadziri.github.io/
+
+"Hajishirzi":
+  - firstname: ["Hannaneh"]
+    url: https://hannaneh.ai/
 
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
