@@ -33,7 +33,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
   <summary>I've had the privilege to learn and collaborate at the following institutions. </summary>
 
 <ul>
-<li>Research Intern @ <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> and <a href="https://sqz.ac.cn/en">Shanghai Qi Zhi Institute</a>, advised by <a href=https://cloudygoose.github.io/>Prof. Tianxing He</a></li>
+<li>Research Intern @ <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> and <a href="https://sqz.ac.cn/en">Shanghai Qi Zhi Institute</a>, advised by <a href="https://cloudygoose.github.io/">Prof. Tianxing He</a></li>
 <li>Undergraduate Researcher @ <a href="http://dengji-zhao.net/smart/index.html">The ShanghaiTech Multi-Agent systems Research Team (SMART)</a>, <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, advised by <a href="http://dengji-zhao.net/">Prof. Dengji Zhao</a></li>
 <li>Research Intern @ <a href="https://www.msra.cn/">Microsoft Research Asia</a>, advised by <a href="http://recmind.cn/">Dr. Dongsheng Li</a></li>
 <li>Research Intern @ <a href="https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm">Prof. Xiaotie Deng</a>'s <a href="https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm">daGAME Lab</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, advised by <a href="https://daleczh.github.io/">Dr. Zhaohua Chen</a></li>
