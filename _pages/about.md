@@ -33,7 +33,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
   <summary>I've had the privilege to learn and collaborate at the following institutions. </summary>
 
 <ul>
-<li>Research Intern @ <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> and <a href="https://sqz.ac.cn/en">Shanghai Qi Zhi Institute, advised by [Prof. Tianxing He](https://cloudygoose.github.io/)
+<li>Research Intern @ <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> and <a href="https://sqz.ac.cn/en">Shanghai Qi Zhi Institute, advised by [Prof. Tianxing He](https://cloudygoose.github.io/)</li>
 <li>Undergraduate Researcher @ <a href="http://dengji-zhao.net/smart/index.html">The ShanghaiTech Multi-Agent systems Research Team (SMART)</a>, <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, advised by <a href="http://dengji-zhao.net/">Prof. Dengji Zhao</a></li>
 <li>Research Intern @ <a href="https://www.msra.cn/">Microsoft Research Asia</a>, advised by <a href="http://recmind.cn/">Dr. Dongsheng Li</a></li>
 <li>Research Intern @ <a href="https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm">Prof. Xiaotie Deng</a>'s <a href="https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm">daGAME Lab</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, advised by <a href="https://daleczh.github.io/">Dr. Zhaohua Chen</a></li>
@@ -41,8 +41,6 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 <li>Teaching Associate @ <a href="https://shanghai.nyu.edu/">New York University Shanghai</a></li>
 </ul>
 </details>
-
-I'll be joining UC Berkeley as a Research Fellow starting this summer. 
 
 <!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
 
