@@ -16,14 +16,17 @@
       year: 2023 - 2023
     - title: B.S. in Computer Science
       institution: ShanghaiTech University, Shanghai, China
-      year: 2020 - Now
+      year: 2020 - 2025
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Intern
-      institution: Shanghai Qi Zhi Institute
-      year: 2024 - Now
+      institution: UC Berkeley
+      year: 2025 - 2026
+    - title: Research Intern
+      institution: IIIS@Tsinghua University / Shanghai Qi Zhi Institute
+      year: 2024 - 2025
     - title: Research Intern
       institution: Microsoft Research Asia
       year: 2024 - 2024
@@ -100,9 +103,10 @@
   contents:
     - title: (Large) Language Models
       items:
+        - Code
         - Mechanism Design on LLM (Agents)
         - Reasoning Capabilities of LLMs
-        - Writing in LLMs
+        - Intepretability
         # - Ontology and Epistemology of LLMs
     - title: Algorithmic Game Theory
       items:
