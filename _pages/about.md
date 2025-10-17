@@ -49,7 +49,7 @@ Hi there. My research interest is about *CONNECTION*. I am studying **Large Lang
 
 1. Are **LLM-based multi-agent systems** sufficiently **truthful, secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
 2. How can we examine or reflect on LLMs (or multi-agent systems) from **an anthropological perspective**? Can we **construct a culture** for multi-agent systems? Furthermore, how can we **evaluate the real value** of highly metric-driven LLMs (or multi-agent systems) for humans?
-3. Can interpretability tools enhance efficient RL training for language models? Can we **attack the reasoning process** or **find the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) contribute to these studies?
+3. Can **interpretability tools** enhance efficient RL training for language models? Can we **attack the reasoning process** or **find the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) contribute to these studies?
 
 **Topics that may not be easy to get started in the short term, but I am still interested:**
 
