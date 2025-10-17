@@ -27,7 +27,7 @@ social: true  # includes social icons at the bottom of the page
 
 ## *CONNECT THE WORLD*.
 
-Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Multi-Agent Systems (MAS)**. I am a Research Intern @ [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Dawn Song](https://dawnsong.io/).
+Hi there. My research interest is about *CONNECTION*. I am studying **Large Language Models (LLMs)** and **Algorithmic Game Theory (AGT)**. I am a Research Intern @ [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Dawn Song](https://dawnsong.io/).
 
 <details>
   <summary>I've had the privilege to learn and collaborate at the following institutions. </summary>
