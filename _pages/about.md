@@ -80,6 +80,8 @@ I am very passionate about communicating with people. If you would like to discu
 
 I like (non-fiction) writing and composing/mixing music.
 
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=CPJ3tqrG7ZyvQlHFfpqvPGACWHkwRO0U8D7Gr2QtynE&cl=ffffff&w=a"></script>
+
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
