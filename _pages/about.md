@@ -80,7 +80,7 @@ I am very passionate about communicating with people. If you would like to discu
 
 I like (non-fiction) writing and composing/mixing music.
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=CPJ3tqrG7ZyvQlHFfpqvPGACWHkwRO0U8D7Gr2QtynE&cl=ffffff&w=a"></script>
+<a href="https://mapmyvisitors.com/web/1c2le"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=CPJ3tqrG7ZyvQlHFfpqvPGACWHkwRO0U8D7Gr2QtynE&cl=ffffff" /></a>
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
