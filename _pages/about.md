@@ -46,7 +46,7 @@ Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), adv
 **My current research interest:**
 
 1. Are language models sufficiently **truthful, secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
-2. To what degree is it theoretically justifiable to anthropomorphize language models? To what extent can anthropological methodologies and their underlying research problematics be applied to the study of language models? Are there significant divergences between inter-model communication and human-model interaction?
+2. To what degree is it **theoretically justifiable to anthropomorphize language models**? To what extent can **anthropological methodologies** and their underlying research problematics be applied to the study of language models? Are there significant divergences between **inter-model communication** and **human-model interaction**?
 3. Can **interpretability tools** enhance efficient RL training for language models? Can we **attack the reasoning process** or **find the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) or economical problems contribute to these studies?
 
 **Topics that may not be easy to get started in the short term, but I am still interested:**
