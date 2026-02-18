@@ -65,11 +65,11 @@ Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), adv
 <details>
   <summary>Here are my research experience and details. </summary>
 
-  <p>I works on <strong>how language models or multi-agent systems connect with human society</strong>. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-ai collaborations). At the same time, I am deeply interested in aligning large-scale multi-agent systems with human society. This includes, but is not limited to, the intersection of <em>sociology, anthropology, economics, psychology, philosophy, and LLMs</em>. I believe it is crucial to study whether language models can genuinely take on roles within a real social context. </p>
+  <p>I works on <strong>how language models or multi-agent systems connect with human society</strong>. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-ai collaborations). At the same time, I am deeply interested in aligning language models with human society. This includes, but is not limited to, the intersection of <em>sociology, anthropology, economics, psychology, philosophy, and LLMs</em>. I believe it is crucial to study whether language models can genuinely take on roles within a real social context. </p>
   
   <p>I also works on reasoning capabilities on language models, especially on competitive programming.</p>
 
-  <p>I am intrigued about how to design (incentive-compatible) mechanisms on graphs or multi-agent systems, which mainly falls within the field of <strong>Algorithmic Game Theory (AGT)</strong>. My current work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems. </p>
+  <p>I am intrigued about how to design (incentive-compatible) mechanisms on graphs or multi-agent systems, which mainly falls within the field of <strong>Algorithmic Game Theory (AGT)</strong>. My recent work revolves around exploring the intersection of LLMs and AGT, with an emphasis on mechanism design for multi-agent systems. </p>
 
   <p>Previously I worked on how to capture the relationships between different variables using deep learning methods. I was mainly focusing on <strong>Electroencephalogram (EEG)</strong> and <strong>Graph Neural Networks (GNN)</strong>. I was also interested in the use of graph neural networks for the analysis of multi-variable time series data, chemical molecules, social networks and so on. </p>
 </details>
