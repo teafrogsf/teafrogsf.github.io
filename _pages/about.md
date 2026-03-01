@@ -63,7 +63,7 @@ Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), adv
 **If you are also interested in these directions and would like to collaborate with me, please contact me immediately!**
 
 <details>
-  <summary>Here are my research experience and details. </summary>
+  <summary>Here are my research experience and details. (I may not update this section frequently so please check my Google Scholar for recent publications.)</summary>
 
   <p>I works on <strong>how language models or multi-agent systems connect with human society</strong>. I am exploring the evolution of competition and cooperation in LLM-based multi-agent systems (with or without human-ai collaborations). At the same time, I am deeply interested in aligning language models with human society. This includes, but is not limited to, the intersection of <em>sociology, anthropology, economics, psychology, philosophy, and LLMs</em>. I believe it is crucial to study whether language models can genuinely take on roles within a real social context. </p>
   
