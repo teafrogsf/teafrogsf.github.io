@@ -43,7 +43,7 @@ Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), adv
 <!-- Hi there. I am a senior undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/). I am fortunate to join [The ShanghaiTech Multi-Agent systems Research Team (SMART)](http://dengji-zhao.net/smart/index.html) at ShanghaiTech University, advised by [Prof. Dengji Zhao](http://dengji-zhao.net/). I am now a research intern in [Microsoft Research Asia](https://www.msra.cn/). I was a research intern in [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm)'s [daGAME Lab](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm) at [Peking University](https://english.pku.edu.cn/), advised by [Dr. Zhaohua Chen](https://daleczh.github.io/). I was also a visiting student at [University of Wisconsin - Madison](https://www.wisc.edu/). -->
 
 
-**My current research interest:**
+**My current research interests:**
 
 1. Are language models sufficiently **truthful, secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
 2. To what degree is it **theoretically justifiable to anthropomorphize language models**? To what extent can **anthropological methodologies** and their underlying research problematics be applied to the study of language models? Are there significant divergences between **inter-model communication** and **human-model interaction**?
