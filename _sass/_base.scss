@@ -520,6 +520,46 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.45rem;
+      }
+      .paper-labels {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+      .paper-label {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.08rem 0.5rem;
+        border-radius: 999px;
+        border: 1px solid rgba(15, 23, 42, 0.14);
+        background-color: rgba(15, 23, 42, 0.04);
+        color: var(--global-theme-color);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        line-height: 1.4;
+        text-transform: uppercase;
+        &.oral {
+          color: #b45309;
+          border-color: rgba(217, 119, 6, 0.3);
+          background-color: rgba(245, 158, 11, 0.12);
+        }
+        &.spotlight {
+          color: #0f766e;
+          border-color: rgba(13, 148, 136, 0.28);
+          background-color: rgba(45, 212, 191, 0.12);
+        }
+        &.best-paper,
+        &.best-paper-award,
+        &.outstanding-paper {
+          color: #a16207;
+          border-color: rgba(202, 138, 4, 0.32);
+          background-color: rgba(250, 204, 21, 0.14);
+        }
       }
       .author {
         a {

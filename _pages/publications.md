@@ -3,14 +3,15 @@ layout: page
 permalink: /publications/
 title: publications
 description: The symbol * means equal contribution and † means corresponding author.
-years: [2024, 2025]
+year_start: 2024
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years reversed %}
+{% assign current_year = 'now' | date: '%Y' | plus: 0 %}
+{%- for y in (page.year_start..current_year) reversed %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}

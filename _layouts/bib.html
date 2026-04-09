@@ -28,8 +28,24 @@
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
+        {%- capture label_source -%}{% if entry.labels %}{{ entry.labels }}{% elsif entry.label %}{{ entry.label }}{% endif %}{%- endcapture -%}
+        {%- assign label_source_clean = label_source | strip -%}
+        {%- assign paper_labels = label_source | strip | replace: ', ', '|' | replace: ',', '|' | split: '|' -%}
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title">
+          <span>{{entry.title}}</span>
+          {%- if label_source_clean != "" -%}
+          <span class="paper-labels">
+            {%- for paper_label in paper_labels -%}
+              {%- assign label_text = paper_label | strip -%}
+              {%- if label_text != "" -%}
+                {%- assign label_slug = label_text | downcase | replace: ' ', '-' -%}
+                <span class="paper-label {{ label_slug }}">{{ label_text }}</span>
+              {%- endif -%}
+            {%- endfor -%}
+          </span>
+          {%- endif -%}
+        </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -183,6 +199,9 @@
           {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.url and entry.arxiv == nil and entry.html == nil and entry.pdf == nil and entry.website == nil %}
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Link</a>
           {%- endif %}
           </div>
           {% if site.badges %}
