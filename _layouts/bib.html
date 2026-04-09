@@ -32,20 +32,18 @@
         {%- assign label_source_clean = label_source | strip -%}
         {%- assign paper_labels = label_source | strip | replace: ', ', '|' | replace: ',', '|' | split: '|' -%}
         <!-- Title -->
-        <div class="title">
-          <span>{{entry.title}}</span>
-          {%- if label_source_clean != "" -%}
-          <span class="paper-labels">
-            {%- for paper_label in paper_labels -%}
-              {%- assign label_text = paper_label | strip -%}
-              {%- if label_text != "" -%}
-                {%- assign label_slug = label_text | downcase | replace: ' ', '-' -%}
-                <span class="paper-label {{ label_slug }}">{{ label_text }}</span>
-              {%- endif -%}
-            {%- endfor -%}
-          </span>
-          {%- endif -%}
+        <div class="title">{{entry.title}}</div>
+        {%- if label_source_clean != "" -%}
+        <div class="paper-labels">
+          {%- for paper_label in paper_labels -%}
+            {%- assign label_text = paper_label | strip -%}
+            {%- if label_text != "" -%}
+              {%- assign label_slug = label_text | downcase | replace: ' ', '-' -%}
+              <span class="paper-label {{ label_slug }}">{{ label_text }}</span>
+            {%- endif -%}
+          {%- endfor -%}
         </div>
+        {%- endif -%}
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}

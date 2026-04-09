@@ -520,15 +520,13 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 0.45rem;
       }
       .paper-labels {
-        display: inline-flex;
+        display: flex;
         flex-wrap: wrap;
         gap: 0.35rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.2rem;
       }
       .paper-label {
         display: inline-flex;
