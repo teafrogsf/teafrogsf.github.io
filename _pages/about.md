@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
   }
 </style>
 
-Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Dawn Song](https://dawnsong.io/). I am studying **Large Language Models (LLMs)** and **Algorithmic Game Theory (AGT)**. 
+Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Dawn Song](https://dawnsong.io/). I am studying **Large Language Models (LLMs)**, **Agents** and **Algorithmic Game Theory (AGT)**. 
 
 <details>
   <summary>I've had the privilege to learn and collaborate at the following institutions. </summary>
@@ -45,13 +45,12 @@ Hi there. I am a research intern @ [UC Berkeley](https://www.berkeley.edu/), adv
 
 **My current research interests:**
 
-1. Are language models sufficiently **truthful, secure and efficient**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
-2. To what degree is it **theoretically justifiable to anthropomorphize language models**? To what extent can **anthropological methodologies** and their underlying research problematics be applied to the study of language models? Are there significant divergences between **inter-model communication** and **human-model interaction**?
-3. Can **interpretability tools** enhance efficient RL training for language models? Can we **attack the reasoning process** or **find the inherent flaws** (if they exist) in reasoning models? How can we distinguish **different error modes** in various LLMs? Furthermore, can competitive-level problems (including Olympiad Informatics problems) or economical problems contribute to these studies?
+1. Are language models and agents sufficiently **reliable**? How can we design valuable mechanisms to ensure this (both theoretically and empirically)?  
+2. How data **really** help training process of language models and agents? Can we find valuable **training dynamics** or **internal features** to prove this?
 
 **Topics that may not be easy to get started in the short term, but I am still interested:**
 
-1. How can LLMs truly engage in meaningful **role-playing or writing**? These two tasks are similar in that they both reflect the linguistic state of **a real, specific human**.  
+1. To what degree is it **theoretically justifiable to anthropomorphize language models**? To what extent can **anthropological methodologies** and their underlying research problematics be applied to the study of language models? Are there significant divergences between **inter-model communication** and **human-model interaction**?
 2. **How do language models model language**? Can we understand the representation of *(even multimodal)* linguistic concepts in language models through **interpretability tools**? Can modern and contemporary **philosophy of language** (continental or analytic) help reshape our understanding of these questions?
 
 <!-- 1. LLM组成的多智能体系统足够安全和有效率吗？如何设计有价值的机制来保证这一点？
