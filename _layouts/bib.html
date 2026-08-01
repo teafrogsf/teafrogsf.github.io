@@ -92,30 +92,7 @@
           {%- if more_authors > 1 -%}
             {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
           {%- endif -%}
-          {%- assign more_authors_show = '' -%}
-          {%- for author in entry.author_array offset: author_array_limit -%}
-            {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
-            {%- unless forloop.last -%}
-              {%- assign more_authors_show = more_authors_show | append: ", " -%}
-            {%- endunless -%}
-          {%- endfor -%}
-          , and
-          <span
-              class="more-authors"
-              title="click to view {{more_authors_hide}}"
-              onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '{{site.more_authors_animation_delay}}');
-              "
-          >{{more_authors_hide}}</span>
+          , and <button type="button" class="more-authors" aria-expanded="false" title="click to view {{more_authors_hide}}"><span class="more-authors-count">{{more_authors_hide}}</span><span class="more-authors-list" hidden>{%- for author in entry.author_array offset: author_array_limit -%}{{ author.first | escape }} {{ author.last | escape }}{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}</span></button>
         {%- endif -%}
 
         </div>

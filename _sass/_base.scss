@@ -571,10 +571,15 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
-        > span.more-authors {
+        > button.more-authors {
           color: var(--global-text-color-light);
+          background: none;
+          border: 0;
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
+          font: inherit;
+          padding: 0;
+          text-align: left;
           &:hover {
               color: var(--global-text-color);
               border-bottom: 1px dashed var(--global-text-color);
