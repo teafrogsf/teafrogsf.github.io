@@ -1,0 +1,47 @@
+name: Deploy static homepage
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-pages-static
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out master
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish static files to gh-pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          deploy_dir="$(mktemp -d)"
+          trap 'git worktree remove --force "$deploy_dir"' EXIT
+
+          git fetch origin gh-pages
+          git worktree add --detach "$deploy_dir" origin/gh-pages
+          find "$deploy_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+
+          cp index.html 404.html robots.txt .nojekyll "$deploy_dir"/
+          cp -R assets "$deploy_dir"/assets
+
+          git -C "$deploy_dir" add --all
+          if git -C "$deploy_dir" diff --cached --quiet; then
+            exit 0
+          fi
+
+          git -C "$deploy_dir" config user.name "github-actions[bot]"
+          git -C "$deploy_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$deploy_dir" commit -m "Deploy static homepage from ${GITHUB_SHA}"
+          git -C "$deploy_dir" push origin HEAD:gh-pages
