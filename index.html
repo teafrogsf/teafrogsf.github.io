@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yuhan Cao</title>
+<!-- White-background variant -->
+<!-- High-contrast blue accent variant -->
+<meta name="author" content="Yuhan Cao" />
+<meta name="description" content="Yuhan Cao — researcher studying Large Language Models, agents, and Algorithmic Game Theory." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+/* ====================================================================
+   THEME TOKENS
+   ==================================================================== */
+:root{
+  --bg:        #ffffff;   /* clean white paper */
+  --bg-alt:    #f7f7f8;   /* faint neutral panel */
+  --card:      #ffffff;
+  --text:      #1b1b1d;
+  --text-soft: #51515a;
+  --text-faint:#8a8a92;
+  --border:    #ececef;
+  --border-2:  #dadade;
+  --accent:    oklch(0.50 0.20 260);        /* vivid high-contrast blue */
+  --accent-ink:oklch(0.44 0.21 260);
+  --accent-soft:oklch(0.50 0.20 260 / 0.10);
+  --shadow:    0 1px 2px rgba(20,22,30,.04), 0 6px 22px -14px rgba(20,22,30,.16);
+  /* TYPEFACE ROLES — swap these to retheme the whole page */
+  --font-body: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; /* body + headings */
+  --font-ui:   "Space Grotesk", system-ui, sans-serif; /* labels, nav, badges, dates */
+}
+[data-theme="dark"]{
+  --bg:        #121316;   /* neutral charcoal */
+  --bg-alt:    #181a1e;
+  --card:      #1b1d21;
+  --text:      #e9eaec;
+  --text-soft: #adb0b6;
+  --text-faint:#7c8088;
+  --border:    #292c31;
+  --border-2:  #393d44;
+  --accent:    oklch(0.72 0.17 258);
+  --accent-ink:oklch(0.80 0.16 258);
+  --accent-soft:oklch(0.72 0.17 258 / 0.16);
+  --shadow:    0 1px 2px rgba(0,0,0,.34), 0 8px 26px -16px rgba(0,0,0,.7);
+}
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; scroll-padding-top: 72px; }
+body{
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: var(--font-body);
+  font-size: 17.5px; line-height: 1.62;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+a{ color: var(--accent); text-decoration: none; }
+a:hover{ text-decoration: underline; text-underline-offset: 2px; }
+strong{ font-weight: 600; color: var(--text); }
+.mono{ font-family: var(--font-ui); }
+
+/* ====================================================================
+   TOP NAV
+   ==================================================================== */
+.nav{
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.nav__in{
+  max-width: 1008px; margin: 0 auto; padding: 0 24px;
+  height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 18px;
+}
+.nav__brand{ font-weight: 600; font-size: 16.5px; letter-spacing: -0.01em; color: var(--text); white-space: nowrap; }
+.nav__links{ display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.nav__links::-webkit-scrollbar{ display: none; }
+.nav__links a{
+  font-family: var(--font-ui);
+  color: var(--text-soft); font-size: 12.5px; font-weight: 400; letter-spacing: .01em; text-transform: lowercase;
+  padding: 7px 11px; border-radius: 7px; white-space: nowrap;
+}
+.nav__links a:hover{ color: var(--text); background: var(--bg-alt); text-decoration: none; }
+.nav__links a.is-active{ color: var(--accent); }
+.themebtn{
+  flex: none; width: 34px; height: 34px; border-radius: 8px;
+  border: 1px solid var(--border-2); background: var(--card); color: var(--text-soft);
+  cursor: pointer; display: grid; place-items: center; font-size: 15px;
+}
+.themebtn:hover{ color: var(--text); border-color: var(--text-faint); }
+
+/* ====================================================================
+   SECTION SCAFFOLD
+   ==================================================================== */
+.section{ padding: clamp(46px, 7vw, 78px) 0; }
+.section--alt{ background: var(--bg-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.wrap{ max-width: 1008px; margin: 0 auto; padding: 0 24px; }
+.wrap--narrow{ max-width: 820px; }
+#about .wrap{ max-width: 1120px; }
+.sec-h{
+  font-size: clamp(23px, 3vw, 30px); font-weight: 600; letter-spacing: -0.005em;
+  margin: 0 0 6px; display: flex; align-items: center; gap: 12px;
+}
+.sec-h .bar{ width: 26px; height: 3px; background: var(--accent); border-radius: 2px; }
+.sec-sub{ color: var(--text-faint); font-size: 14px; margin: 0 0 26px; }
+p{ text-wrap: pretty; }
+
+/* ====================================================================
+   BIOGRAPHY (hero)
+   ==================================================================== */
+.bio{
+  display: block;
+}
+.bio__top{
+  display: grid; grid-template-columns: 220px 1fr;
+  column-gap: clamp(36px, 6vw, 72px); row-gap: 0; align-items: start;
+}
+.bio__profile{ width: 220px; grid-column: 1; grid-row: 1; }
+.avatar{
+  width: 100%; margin: 0; overflow: hidden;
+  border-radius: 8px; background: var(--bg-alt);
+}
+.avatar img{ width: 100%; height: auto; display: block; }
+.profile-contact{
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+  width: 220px; grid-column: 1; grid-row: 2;
+  margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);
+}
+.emails{ display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
+.emails a{ font-size: 12.5px; color: var(--text-soft); letter-spacing: -0.01em; }
+.emails a:hover{ color: var(--accent); }
+.social{ display: flex; flex-wrap: wrap; gap: 9px; }
+.social a{
+  display: grid; place-items: center; width: 36px; height: 36px;
+  color: var(--text-soft); border: 1px solid var(--border-2); border-radius: 9px; background: var(--card);
+}
+.social a:hover{ color: #fff; background: var(--accent); border-color: var(--accent); text-decoration: none; }
+
+.bio__main{ grid-column: 2; grid-row: 1; align-self: center; }
+.bio__main p{ margin: 0 0 16px; }
+.bio__lead{ font-size: 18.5px; }
+.bio__lead .me-name{ color: var(--accent); }
+/* research threads */
+.threads{ width: 100%; margin-top: 38px; padding-top: 30px; border-top: 1px solid var(--border); }
+.bio__main p.ri-lead{ color: var(--text); margin: 0 0 24px; font-weight: 600; }
+.ri-lead--2{ margin-top: 22px; }
+.threads .ri-lead{ font-size: 18px; }
+.threads__h{
+  font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--text-faint); font-weight: 600; margin: 18px 0 4px;
+}
+.thread{
+  display: grid; grid-template-columns: 116px 1fr; gap: 24px;
+  padding: 18px 0; border-bottom: 1px solid var(--border);
+}
+.thread:last-of-type{ border-bottom: none; }
+.thread__k{
+  font-family: var(--font-ui); font-size: 11.5px; letter-spacing: .04em;
+  color: var(--accent); padding-top: 4px; text-transform: lowercase;
+}
+.thread h3{ font-size: 16.5px; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 5px; }
+.thread p{ margin: 0 !important; font-size: 14.5px; color: var(--text-soft); line-height: 1.55; }
+.tags{ display: flex; flex-wrap: wrap; gap: 7px; margin-top: 24px; }
+.tags .tag{
+  font-family: var(--font-ui); font-size: 11px; letter-spacing: .02em;
+  color: var(--text-soft); border: 1px solid var(--border-2); border-radius: 999px; padding: 4px 11px;
+}
+
+/* ====================================================================
+   NEWS
+   ==================================================================== */
+.news{ list-style: none; margin: 0; padding: 0; max-width: 880px; }
+.news li{
+  display: grid; grid-template-columns: 116px 1fr; gap: 20px;
+  padding: 15px 0; border-top: 1px solid var(--border);
+}
+.news li[hidden]{ display: none; }
+.news li:first-child{ border-top: none; }
+.news__date{ font-family: var(--font-ui); font-size: 12.5px; color: var(--accent); padding-top: 2px; white-space: nowrap; }
+.news__body{ margin: 0; font-size: 15.5px; }
+.news-more{ display: flex; justify-content: center; max-width: 880px; padding-top: 14px; }
+.news-toggle{
+  appearance: none; display: inline-flex; align-items: center; gap: 7px;
+  border: 0; background: transparent; color: var(--accent); padding: 5px 2px;
+  font-family: var(--font-ui); font-size: 12.5px; font-weight: 600; cursor: pointer;
+}
+.news-toggle:hover .news-toggle__label{ border-bottom-color: currentColor; }
+.news-toggle__icon{
+  display: grid; place-items: center; width: 18px; height: 18px;
+  border: 1px solid currentColor; border-radius: 50%; line-height: 1;
+}
+.news-toggle__label{ border-bottom: 1px dotted transparent; }
+.tag-new{
+  font-family: var(--font-ui); font-size: 10px; letter-spacing: .06em;
+  color: var(--accent); border: 1px solid var(--accent); border-radius: 4px;
+  padding: 1px 5px; margin-left: 6px; vertical-align: 1.5px;
+}
+
+/* ====================================================================
+   RESEARCH
+   ==================================================================== */
+.research-grid{ display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px,4vw,46px); }
+.research-grid p:first-child{ margin-top: 0; }
+.qlist{ counter-reset: q; list-style: none; padding: 0; margin: 0; }
+.qlist li{ counter-increment: q; position: relative; padding-left: 38px; margin-bottom: 16px; font-size: 15.5px; }
+.qlist li::before{
+  content: counter(q); position: absolute; left: 0; top: 0;
+  width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font-family: var(--font-ui); font-size: 12.5px;
+  color: var(--accent); background: var(--accent-soft);
+}
+.subh{ font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--text-faint); margin: 0 0 16px; }
+.qlist--about{ margin-top: 6px; }
+.qlist--about li{ font-size: 16px; color: var(--text-soft); }
+.qlist--about li::before{ font-size: 13.5px; }
+.thrusts{ display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px,3vw,34px) clamp(28px,5vw,64px); }
+.thrust{ padding-top: 18px; border-top: 1px solid var(--border); }
+.thrust__k{
+  font-family: var(--font-ui); font-size: 11px; letter-spacing: .06em;
+  color: var(--accent); text-transform: uppercase;
+}
+.thrust h3{ font-size: 17px; font-weight: 600; letter-spacing: -0.01em; margin: 8px 0 6px; }
+.thrust p{ margin: 0; font-size: 14.5px; color: var(--text-soft); line-height: 1.58; }
+.callout{
+  grid-column: 1 / -1; margin-top: 8px;
+  background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  border-radius: 10px; padding: 16px 20px; font-size: 15.5px;
+}
+.callout p{ margin: 0; }
+
+/* ====================================================================
+   EXPERIENCE  (timeline)
+   ==================================================================== */
+.timeline{ list-style: none; margin: 0; padding: 0; max-width: 760px; }
+.timeline li{
+  position: relative; padding: 0 0 28px 30px;
+  border-left: 2px solid var(--border);
+}
+.timeline li:last-child{ border-left-color: transparent; padding-bottom: 0; }
+.timeline li::before{
+  content: ""; position: absolute; left: -7px; top: 3px;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--accent); border: 3px solid var(--bg);
+}
+.tl-role{ font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin: 0 0 1px; }
+.tl-where{ font-size: 16.5px; font-weight: 600; margin: 0 0 2px; }
+.tl-where a{ color: var(--text); }
+.tl-where a:hover{ color: var(--accent); }
+.tl-meta{ font-size: 14px; color: var(--text-soft); margin: 0; }
+
+/* ====================================================================
+   PUBLICATIONS
+   ==================================================================== */
+.pub-legend{ font-family: var(--font-ui); font-size: 12px; color: var(--text-faint); margin: -14px 0 6px; }
+.pub-legend sup{ color: var(--accent); font-weight: 600; }
+.pubyear{
+  font-family: var(--font-ui); font-size: 12.5px; letter-spacing: .1em;
+  color: var(--text-faint); font-weight: 600; margin: 30px 0 6px;
+  display: flex; align-items: center; gap: 14px;
+}
+.pubyear::after{ content: ""; flex: 1; height: 1px; background: var(--border); }
+.pubyear:first-of-type{ margin-top: 6px; }
+.pub{
+  display: grid; grid-template-columns: 150px 1fr; gap: 24px; align-items: start;
+  padding: 18px 0; border-top: 1px solid var(--border);
+}
+.pub:first-of-type{ border-top: none; }
+.pub__venue{ display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding-top: 2px; }
+.venue-badge{
+  font-family: var(--font-ui); font-weight: 600; font-size: 12.5px; letter-spacing: .01em;
+  color: var(--accent); background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 26%, transparent);
+  border-radius: 7px; padding: 5px 10px; line-height: 1.2;
+}
+.venue-badge--ms{ color: var(--accent); background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 26%, transparent); }
+.oral-chip{
+  font-family: var(--font-ui); font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+  color: #fff; background: oklch(0.72 0.15 85);
+  border: none; border-radius: 5px; padding: 2px 8px; font-weight: 700;
+}
+.pub__title{ font-size: 17.5px; font-weight: 600; margin: 0 0 5px; line-height: 1.32; }
+.pub__title a{ color: var(--text); }
+.pub__title a:hover{ color: var(--accent); }
+.pub__auth{ font-size: 14px; color: var(--text-soft); margin: 0 0 11px; line-height: 1.5; }
+.pub__auth .me{ color: var(--text); font-weight: 600; border-bottom: 2px solid var(--accent); }
+.pub__auth sup{ color: var(--accent); font-weight: 600; font-size: 11px; }
+.auth-rest[hidden]{ display: none; }
+.auth-more{
+  font: inherit; color: var(--accent); background: none; border: none; padding: 0;
+  cursor: pointer; border-bottom: 1px dashed color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.auth-more:hover{ border-bottom-style: solid; }
+.pub__btns{ display: flex; flex-wrap: wrap; gap: 8px; }
+.btn{
+  font-family: var(--font-ui); font-size: 12px; letter-spacing: .02em;
+  border: 1px solid var(--border-2); color: var(--text); border-radius: 7px; padding: 6px 11px;
+}
+.btn:hover{ background: var(--text); color: var(--bg); border-color: var(--text); text-decoration: none; }
+.btn--primary{ border-color: var(--accent); color: var(--accent); }
+.btn--primary:hover{ background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.seeall{ margin-top: 18px; }
+
+/* ====================================================================
+   TEACHING
+   ==================================================================== */
+.course-list{ list-style: none; margin: 28px 0 0; padding: 0; }
+.course{
+  display: grid; grid-template-columns: minmax(190px, .8fr) minmax(0, 1.4fr); gap: 24px;
+  padding: 20px 0; border-top: 1px solid var(--border);
+}
+.course__name{ font-size: 16px; font-weight: 600; line-height: 1.35; }
+.course__role{
+  display: block; margin-top: 5px; color: var(--accent); font-family: var(--font-ui);
+  font-size: 11.5px; font-weight: 500; letter-spacing: .02em;
+}
+.course p{ margin: 0; color: var(--text-soft); font-size: 14.5px; line-height: 1.58; }
+
+/* ====================================================================
+   COLLECTIONS
+   ==================================================================== */
+.collection-groups{ display: grid; gap: 44px; margin-top: 30px; }
+.collection-category{
+  display: flex; align-items: center; gap: 14px; margin: 0 0 14px;
+  font-family: var(--font-ui); font-size: 12px; font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--accent);
+}
+.collection-category::after{ content: ""; flex: 1; height: 1px; background: var(--border); }
+.collection-grid{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.collection-grid--demo{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.collection-item{
+  min-width: 0; overflow: hidden; display: flex; flex-direction: column;
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(30,45,70,.05);
+}
+.collection-cover{ margin: 0; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg); }
+.collection-cover img{ display: block; width: 100%; height: 100%; object-fit: cover; }
+.collection-content{ display: flex; flex: 1; flex-direction: column; padding: 18px 20px 20px; }
+.collection-item--plain{ border-top: 3px solid var(--accent); }
+.collection-item--plain .collection-content{ padding-top: 20px; }
+.collection-item--wide{ grid-column: 1 / -1; }
+.collection-item--wide .collection-content{
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .85fr);
+  column-gap: 28px; align-items: center;
+}
+.collection-item--wide .collection-title,
+.collection-item--wide .collection-description,
+.collection-item--wide .collection-copy{ grid-column: 1; }
+.collection-item--wide .collection-audio{ grid-column: 2; grid-row: 1 / 4; margin-top: 0; }
+.collection-title{ margin: 0 0 5px; font-size: 18px; font-weight: 600; line-height: 1.35; }
+.collection-description{ margin: 0 0 14px; color: var(--text-soft); font-size: 14px; }
+.collection-copy{ margin-bottom: 18px; color: var(--text-soft); font-size: 14px; line-height: 1.55; }
+.collection-copy p{ margin: 0 0 8px; }
+.collection-copy p:last-child{ margin-bottom: 0; }
+.collection-caption{ color: var(--text-faint); font-size: 12.5px; font-style: italic; }
+.collection-audio{ width: 100%; max-width: 100%; height: 36px; margin-top: auto; accent-color: var(--accent); }
+
+/* ====================================================================
+   CONTACT
+   ==================================================================== */
+.contact-grid{ display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 880px; }
+.contact-card{ background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; box-shadow: var(--shadow); }
+.contact-card h3{ font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--text-faint); margin: 0 0 12px; font-weight: 600; }
+.contact-card p{ margin: 0 0 8px; font-size: 15.5px; }
+
+.footer-anchor{ position: relative; }
+footer{ padding: 30px 0 44px; border-top: 1px solid var(--border); background: var(--bg-alt); }
+.footer-anchor--ready footer{
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 90;
+}
+.footer-anchor--ready.is-docked footer{
+  position: absolute;
+}
+.foot{ display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: baseline; }
+.foot .motto{ font-style: italic; color: var(--text-soft); font-size: 15px; }
+.foot .copy{ font-family: var(--font-ui); font-size: 11.5px; color: var(--text-faint); }
+
+/* ====================================================================
+   RESPONSIVE
+   ==================================================================== */
+@media (max-width: 880px){
+  .bio__top{ grid-template-columns: 200px 1fr; column-gap: 32px; row-gap: 0; }
+  .bio__profile, .profile-contact{ width: 200px; }
+  .dl, .research-grid, .contact-grid, .thrusts{ grid-template-columns: 1fr; gap: 22px; }
+  .pub{ grid-template-columns: 1fr; gap: 12px; }
+  .course{ grid-template-columns: 1fr; gap: 8px; }
+  .collection-grid, .collection-grid--demo{ grid-template-columns: 1fr; }
+  .collection-item--wide{ grid-column: auto; }
+  .collection-item--wide .collection-content{ display: flex; }
+  .news li{ grid-template-columns: 1fr; gap: 3px; }
+  .news__date{ padding-top: 0; }
+}
+@media (max-width: 760px){
+  html{ scroll-padding-top: 104px; }
+  .nav__in{ height: auto; min-height: 58px; padding: 10px 16px 8px; flex-wrap: wrap; row-gap: 7px; }
+  .nav__brand{ font-size: 15px; }
+  .themebtn{ margin-left: auto; }
+  .nav__links{ order: 3; width: 100%; justify-content: space-between; gap: 0; overflow: visible; }
+  .nav__links a{ padding: 4px 3px; font-size: 11px; }
+  .bio__top{ grid-template-columns: 1fr; }
+  .bio__profile{ width: min(240px, 100%); grid-column: 1; grid-row: 1; }
+  .profile-contact{ width: min(240px, 100%); grid-column: 1; grid-row: 2; }
+  .bio__main{ grid-column: 1; grid-row: 3; align-self: start; margin-top: 32px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav__in">
+    <span class="nav__brand">Yuhan Cao</span>
+    <div class="nav__links">
+      <a href="#about">Home</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#collections">Collections</a>
+    </div>
+    <button class="themebtn" id="themeToggle" aria-label="Toggle light / dark">◐</button>
+  </div>
+</nav>
+
+<!-- ============ BIOGRAPHY ============ -->
+<section class="section" id="about" data-screen-label="about">
+  <div class="wrap bio">
+    <div class="bio__top">
+      <div class="bio__profile">
+        <figure class="avatar">
+          <img src="assets/img/prof_pic.jpg" alt="Yuhan Cao" />
+        </figure>
+      </div>
+      <div class="profile-contact">
+        <div class="emails">
+          <a class="mono" href="mailto:yuhanteafrog@gmail.com">yuhanteafrog@gmail.com</a>
+          <a class="mono" href="mailto:yuhancao@berkeley.edu">yuhancao@berkeley.edu</a>
+        </div>
+        <div class="social">
+          <a href="https://scholar.google.com/citations?user=zBysRPkAAAAJ" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/><path d="M5 13.18v3.64L12 21l7-4.18v-3.64L12 17l-7-3.82z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/yuhan-cao-832b202b6" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm6 0h3.8v1.64h.05c.53-1 1.83-2.06 3.77-2.06C20.6 8.58 22 10.2 22 13.3V21h-4v-6.84c0-1.63-.03-3.73-2.27-3.73-2.27 0-2.62 1.77-2.62 3.6V21H9V9z"/></svg>
+          </a>
+          <a href="https://github.com/teafrogsf" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.34 9.34 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.92-2.34 4.78-4.57 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="bio__main">
+        <p class="bio__lead">Hi there. I am a visiting scholar @ <a href="https://www.berkeley.edu/">UC Berkeley</a>, advised by <a href="https://dawnsong.io/">Prof. Dawn Song</a>. I study <strong>Large Language Models (LLMs)</strong>, <strong>Agents</strong>, and <strong>Algorithmic Game Theory (AGT)</strong>.</p>
+        <p>Outside research, I love anthropology, (non-fiction) writing, and composing / mixing music.</p>
+      </div>
+    </div>
+
+    <div class="threads">
+      <p class="ri-lead">My current research interests:</p>
+      <ol class="qlist qlist--about">
+        <li>Are language models and agents sufficiently <strong>reliable</strong>? How can we design valuable mechanisms to ensure this, both theoretically and empirically?</li>
+        <li>How does <strong>data</strong> really help the training process of language models and agents? Can we find valuable <strong>training dynamics</strong> or <strong>internal features</strong> that explain this?</li>
+      </ol>
+      <p class="ri-lead ri-lead--2">Topics that may not be easy to get started in the short term, but I am still interested in:</p>
+      <ol class="qlist qlist--about" start="3">
+        <li>To what degree is it <strong>theoretically justifiable to anthropomorphize language models</strong>? To what extent can <strong>anthropological methodologies</strong> be applied to their study, and are there significant divergences between <em>inter-model communication</em> and <em>human–model interaction</em>?</li>
+        <li><strong>How do language models model language?</strong> Can interpretability tools reveal the representation of <em>(even multimodal)</em> linguistic concepts, and can the <strong>philosophy of language</strong> reshape our understanding?</li>
+      </ol>
+      <div class="callout" style="margin-top:24px;">
+        <p>If you are also interested in these directions and would like to collaborate, please <a href="mailto:yuhanteafrog@gmail.com">contact me</a> — or <a href="https://calendly.com/yuhanteafrog/30min">book a time to chat</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWS ============ -->
+<section class="section section--alt" id="news">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="bar"></span>News</h2>
+    <ul class="news" id="newsList">
+      <li><div class="news__date">Jul 7, 2026</div><p class="news__body">Happy to see you at <strong>ICML 2026</strong>!</p></li>
+      <li><div class="news__date">Jun 30, 2026</div><p class="news__body">Happy to see you at <strong>WWW 2026</strong>!</p></li>
+      <li><div class="news__date">Jun 18, 2026</div><p class="news__body">Check out <a href="https://agents-last-exam.org/"><strong>Agents' Last Exam</strong></a>.<span class="tag-new">new</span></p></li>
+      <li><div class="news__date">May 2, 2026</div><p class="news__body">One paper was accepted by <strong>ICML 2026</strong>.</p></li>
+      <li><div class="news__date">Apr 24, 2026</div><p class="news__body">Happy to see you at <strong>ICLR 2026</strong>!</p></li>
+      <li><div class="news__date">Apr 9, 2026</div><p class="news__body">Our work on <a href="https://arxiv.org/abs/2511.00847">mechanism design against dishonest LLM providers</a> received an <strong>oral presentation at WWW 2026</strong> — only 15 papers in the Economics &amp; HC track were selected for oral.</p></li>
+      <li><div class="news__date">Apr 7, 2026</div><p class="news__body">Check out our work on <a href="https://arxiv.org/abs/2604.05716">reinventing foundational algorithms through language models</a>.</p></li>
+    </ul>
+    <div class="news-more">
+      <button class="news-toggle" id="newsToggle" type="button" aria-expanded="false" aria-controls="newsList">
+        <span class="news-toggle__icon" aria-hidden="true">+</span>
+        <span class="news-toggle__label">Show more</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section class="section" id="publications">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="bar"></span>Publications</h2>
+    <p class="sec-sub">Please refer to my Google Scholar for the up-to-date list.</p>
+    <p class="pub-legend"><sup>*</sup> equal contribution &nbsp;·&nbsp; <sup>†</sup> corresponding author</p>
+
+    <h3 class="pubyear">2026</h3>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge venue-badge--ms">Manuscript</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2606.05405">Agents' Last Exam</a></h3>
+        <p class="pub__auth">Yiyou Sun<sup>*</sup>, Xinyang Han<sup>*</sup>, Weichen Zhang<sup>*</sup>, Yuanbo Pang<sup>*</sup>, Tianyu Wang<sup>*</sup>, <span class="me">Yuhan Cao</span><sup>*</sup><span class="auth-rest" id="authors-agents-last-exam" hidden>, Yixiao Huang<sup>*</sup>, Chris Duroiu, Haoyun Zhang, Jeffrey Lin, Weishu Zhang, Tyler Zeng, Ying Yan, Bo Liu, Hanson Wen, Mingyang Xu, Xiaoyuan Liu, Zimeng Chen, Weiyan Shi, Amanda Dsouza, Vincent Sunn Chen, Patrick Bryant, Carl Boettiger, Yamini Rangan, Bradley Rothenberg, Kyle Steinfeld, Arvind Rao, Tapio Schneider, Georgios Yannakakis, Laure Zanna, Kaan Ozbay, Ida Sim, Tarek Zohdi, George Em Karniadakis, Jack Gallant, Teresa Head-Gordon, Yushan Li, Wenxi Deng, Tao Sun, Huiqi Wang, Zhun Wang, Justin Xu, Chris Yuhao Liu, Yafei Cheng, Rongwang Hu, Aras Bacho, Shengcao Cao, Zengyi Qin, Yixiong Chen, Hengduan Fan, Hao Liu, Lin Zeng, Shashank Muralidhar Bharadwaj, Litian Gong, Yingxuan Yang, Maojia Song, Ruheng Wang, Zongzheng Zhang, Honglin Bao, Shuo Lu, Jianhong Tu, Zhonghua Wang, Zheng Zhang, Zijiao Chen, Yanqiong Jiang, Zhendong Li, Bohan Lyu, Chang Ma, Peiran Xu, Benran Zhang, Shangding Gu, Haoyue Hua, Haoyang Li, Wanzhe Liao, Chengzhi Liu, Junbo Peng, Haoran Sun, Zechen Xu, Bo Chen, Jiayi Cheng, Yi Jiang, Keying Kuang, Yuan Li, Youbang Pan, Ziyan Rao, Alexander Schubert, Yifan Shen, Vincent Siu, Xiatao Sun, Kangqi Zhang, Xiaopan Zhang, Yuchen Zhu, Ishaan Singh Chandok, Lei Ding, Jingxuan Fan, Andrew Glover, Jiaming Hu, Yiran Hu, Wenbo Huang, Zixin Jiang, Haoran Jin, Lukas Kim, Ming Liu, Yang Liu, Alireza Rafiei, Xuhuan Shen, Kunyang Sun, Sophia Sun, Ting Sun, Eric Wang, Yixin Wang, Hanwen Xing, Sihan Xu, Yuzheng Xu, Zhongxing Xu, Zhiling Yan, Boqin Yuan, Ruiqi Zhang, Yifan Zhang, Zibo Zhao, Liana, Santanu Bosu Antu, Haoyue Bai, Carlo Bosio, Joseph Cavanagh, Patricia Cavazos-Rehg, Tianxing Chen, Xuewen Chen, Yipu Chen, Chenyu Zhu, Chen Dai, Stefano De Castro, Yunfu Deng, Kaustubh Dhole, Jiayuan Ding, Chenchen Du, Zhehang Du, Hao Fan, Run-Ze Fan, Hengyu Fu, Shi Gu, Yifan Gu, Charlie Guo, Baihe Huang, Baixiang Huang, Rimika Jaiswal, Zhihan Jiang, Ran Jin, Erin Kasson, Xin Lan, Joseph Lee, Deren Lei, Chenyu Li, Daofeng Li, Haitao Li, Hongwei Li, Jingyan Li, Xiao Li, Yi Li, Yinsheng Li, Yuangang Li, Zhixu Li, Wenyu Liang, Longtai Liao, Kevin Qinghong Lin, Andy Zeyi Liu, Che Liu, Jiaming Liu, Kaiyuan Liu, Xuan Liu, Pan Lu, Wenbo Lv, Yicheng Lyu, Qiuyang Mang, Kyle Montgomery, Yuzhou Nie, Ruoxi Ning, Jorin Overwiening, Xu Pan, Layna Paraboschi, Core Francisco Park, Justin Purnomo, Swati Rajwal, Scott Rankin, Bixuan Ren, Yiren Rong, HaoYang Shang, Ventus Shaw, Fiona Shen, Jiawei Shen, Minqi Shi, Shi Qiu, Huaxiu Yao, Tianneng Shi, Jonah So, Vladislav Susoy, Hannah Szlyk, Haocheng Wang, Jialu Wang, Wei Wang, Xinyu Wang, Zehao Wang, Dowling Wong, Angela Wu, Dehao Wu, Fangyu Wu, Mengyuan "Millie" Wu, Yu Wu, Yuchen Wu, Yuhao Wu, Qingpo Wuwu, Weihang Xiao, Yongyi Xiong, Fan Xu, Ruiling Xu, Mingxuan Yan, Benjamin Yang, Jirong Yang, Sen Yang, Xiaoli Yang, Yushi Yang, Haoran Ye, Xiaohu Yu, Zhengming Yu, Chenlong Zhang, Chi Zhang, Hanning Zhang, Hanwen Zhang, Junge Zhang, Kunpeng Zhang, Song Zhang, Wenjin Zhang, Wenshuo Zhang, Ying Zhang, Yizhi Zhang, Brian Zhao, Qijian Zhao, Yimin Zhao, Yuhaohua Zheng, Liwei Zhou, Tianyue Zhou, Sichen Zhu, Siqi Zhu, Yan Zhu, Yishu Zhu, Jierui Zuo, Chonghao Cai, Helena Casademunt, Wenjia Chen, Cheng Cheng, Nawen Deng, Rao Fu, Tianfu Fu, Yifan Han, He Ren, Zhenyu He, Qiao Jin, Langlang Li, Yuetai Li, Sylvia Liu, Lu Lu, Luqing Zhou, Subhabrata Mukherjee, Yunqi Ouyang, Yin Ren, Dawei Shi, Haoran Wu, Zhiyue Wu, Hannah Yao, Zhuoran Yi, Jenny Yu, Rhea Zhan, Hang Zhou, Blake Zhu, Junfan Zhu, Alan Yuille, Yang Liu, Russell Alan Poldrack, Jiachen Li, Zhenglu Li, Molei Tao, Jing Huang, Wenqi Shi, Costas Spanos, Lichao Sun, Chenguang Wang, Orson Xu, Zhen Dong, Hector Gomez, Aylin Caliskan, Ali Emami, Haimin Hu, Zhi Li, Lihui Liu, Murphy Niu, Yi Shao, Jianxin Sun, Mikko Tolonen, Ting Wang, Sanjiv Das, Yanjun Gao, Wenbo Guo, Erika J Schneider, Zhiyong Lu, Yian Ma, Mark Mueller, Radha Poovendran, Somayeh Sojoudi, Yinglun Zhu, Dawn Song</span><button class="auth-more" type="button" data-n="304" aria-expanded="false" aria-controls="authors-agents-last-exam">, and 304 more</button></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2606.05405">PDF / arXiv</a>
+          <a class="btn" href="https://agents-last-exam.org/">Project</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge">WWW 2026</span><span class="oral-chip">Oral</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2511.00847">Pay for the Second-Best Service: A Game-Theoretic Approach against Dishonest LLM Providers</a></h3>
+        <p class="pub__auth"><span class="me">Yuhan Cao</span><sup>*</sup>, Yu Wang<sup>*</sup>, Sitong Liu<span class="auth-rest" id="authors-second-best" hidden>, Miao Li, Yixin Tao, Tianxing He<sup>†</sup></span><button class="auth-more" type="button" data-n="3" aria-expanded="false" aria-controls="authors-second-best">, and 3 more</button></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2511.00847">PDF / arXiv</a>
+          <a class="btn" href="https://arxiv.org/abs/2511.00847">arXiv:2511.00847</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge">ICLR 2026</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2509.21016">RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs?</a></h3>
+        <p class="pub__auth">Yiyou Sun, <span class="me">Yuhan Cao</span>, Pohao Huang, Haoyue Bai, Hannaneh Hajishirzi, Nouha Dziri<sup>†</sup>, Dawn Song<sup>†</sup></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2509.21016">PDF / arXiv</a>
+          <a class="btn" href="https://arxiv.org/abs/2509.21016">arXiv:2509.21016</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge venue-badge--ms">Manuscript</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2604.05716">Can Large Language Models Reinvent Foundational Algorithms?</a></h3>
+        <p class="pub__auth">Jian Zhao, Haoren Luo, Yu Wang, <span class="me">Yuhan Cao</span>, Pingyue Sheng, Tianxing He</p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2604.05716">PDF / arXiv</a>
+          <a class="btn" href="https://arxiv.org/abs/2604.05716">arXiv:2604.05716</a>
+        </div>
+      </div>
+    </article>
+
+    <h3 class="pubyear">2025</h3>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge">ICML 2026</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2507.09580">AICrypto: A Comprehensive Benchmark for Evaluating Cryptography Capabilities of Large Language Models</a></h3>
+        <p class="pub__auth">Yu Wang<sup>*</sup>, Yijian Liu<sup>*</sup>, Liheng Ji<sup>*</sup>, Han Luo<sup>*</sup>, Wenjie Li, Xiaofei Zhou, Chiyun Feng, Puji Wang, <span class="me">Yuhan Cao</span><span class="auth-rest" id="authors-aicrypto" hidden>, Geyuan Zhang, Xiaojian Li, Rongwu Xu, Yilei Chen, Tianxing He<sup>†</sup></span><button class="auth-more" type="button" data-n="5" aria-expanded="false" aria-controls="authors-aicrypto">, and 5 more</button></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2507.09580">PDF / arXiv</a>
+          <a class="btn" href="https://arxiv.org/abs/2507.09580">arXiv:2507.09580</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge venue-badge--ms">Manuscript</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2506.06821">Can LLMs Generate Reliable Test Case Generators? A Study on Competition-Level Programming Problems</a></h3>
+        <p class="pub__auth"><span class="me">Yuhan Cao</span><sup>*†</sup>, Zian Chen<sup>*</sup>, Kun Quan<span class="auth-rest" id="authors-test-generators" hidden>, Ziliang Zhang, Yu Wang, Xiaoning Dong, Yeqi Feng, Guanzhong He, Jingcheng Huang, Jianhao Li, Yixuan Tan, Jiafu Tang, Yilin Tang, Junlei Wu, Qianyu Xiao, Can Zheng, Shouchen Zhou, Yuxiang Zhu, Yiming Huang, Tianxing He</span><button class="auth-more" type="button" data-n="17" aria-expanded="false" aria-controls="authors-test-generators">, and 17 more</button></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2506.06821">PDF / arXiv</a>
+          <a class="btn" href="https://arxiv.org/abs/2506.06821">arXiv:2506.06821</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge venue-badge--ms">Manuscript</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2506.04572">Demonstrations of Integrity Attacks in Multi-Agent Systems</a></h3>
+        <p class="pub__auth">Can Zheng, <span class="me">Yuhan Cao</span>, Xiaoning Dong, Tianxing He<sup>†</sup></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="https://arxiv.org/abs/2506.04572">PDF / arXiv</a>
+          <a class="btn" href="https://arxiv.org/abs/2506.04572">arXiv:2506.04572</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge venue-badge--ms">Manuscript</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title">Prediction of Persistent Drug-Seeking Behavior by Brain-Wide Network</h3>
+        <p class="pub__auth"><span class="me">Yuhan Cao</span><sup>*</sup>, Wenlei Zhang<sup>*</sup>, Xiaocheng Zhang, Yansen Wang, Kan Ren, Rongwei Zhai, Haifeng Jiang, Zhi-Qi Xiong, Min Zhao</p>
+      </div>
+    </article>
+
+    <h3 class="pubyear">2024</h3>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge">AAAI 2024</span><span class="oral-chip">Oral</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title"><a href="assets/pdf/dadn.pdf">Double Auction on Diffusion Network</a></h3>
+        <p class="pub__auth">Miao Li, <span class="me">Yuhan Cao</span>, Dengji Zhao<sup>†</sup></p>
+        <div class="pub__btns">
+          <a class="btn btn--primary" href="assets/pdf/dadn.pdf">PDF</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__venue"><span class="venue-badge venue-badge--ms">Manuscript</span></div>
+      <div class="pub__main">
+        <h3 class="pub__title">Combinatorial Auctions Framework on Network</h3>
+        <p class="pub__auth">Xuanyu Li, Miao Li, <span class="me">Yuhan Cao</span>, Dengji Zhao<sup>†</sup></p>
+      </div>
+    </article>
+
+    <p class="seeall"><a class="btn btn--primary" href="https://scholar.google.com/citations?user=zBysRPkAAAAJ">See all on Google Scholar →</a></p>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section--alt" id="experience">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="bar"></span>Experience</h2>
+    <p class="sec-sub">Where I have learned &amp; collaborated.</p>
+    <ul class="timeline">
+      <li>
+        <p class="tl-role">Visiting Scholar · 2026–</p>
+        <p class="tl-where"><a href="https://www.berkeley.edu/">University of California, Berkeley</a></p>
+        <p class="tl-meta">Advised by <a href="https://dawnsong.io/">Prof. Dawn Song</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Research Intern · 2025–2026</p>
+        <p class="tl-where"><a href="https://www.berkeley.edu/">University of California, Berkeley</a></p>
+        <p class="tl-meta">Advised by <a href="https://dawnsong.io/">Prof. Dawn Song</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Research Intern · 2024–2025</p>
+        <p class="tl-where"><a href="https://www.tsinghua.edu.cn/en/">IIIS, Tsinghua University</a> &amp; <a href="https://sqz.ac.cn/en">Shanghai Qi Zhi Institute</a></p>
+        <p class="tl-meta">Advised by <a href="https://cloudygoose.github.io/">Prof. Tianxing He</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Undergraduate Researcher · 2022–2025</p>
+        <p class="tl-where"><a href="http://dengji-zhao.net/smart/index.html">SMART</a>, <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a></p>
+        <p class="tl-meta">Advised by <a href="http://dengji-zhao.net/">Prof. Dengji Zhao</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Research Intern · 2024</p>
+        <p class="tl-where"><a href="https://www.msra.cn/">Microsoft Research Asia</a></p>
+        <p class="tl-meta">Advised by <a href="http://recmind.cn/">Dr. Dongsheng Li</a> and <a href="https://victorywys.github.io/">Yansen Wang</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Research Intern · 2023</p>
+        <p class="tl-where"><a href="https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm">daGAME Lab</a>, <a href="https://english.pku.edu.cn/">Peking University</a></p>
+        <p class="tl-meta">Advised by <a href="https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm">Prof. Xiaotie Deng</a> and <a href="https://daleczh.github.io/">Dr. Zhaohua Chen</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Visiting Student · 2023</p>
+        <p class="tl-where"><a href="https://www.wisc.edu/">University of Wisconsin–Madison</a></p>
+      </li>
+      <li>
+        <p class="tl-role">Teaching Associate · 2024–2025</p>
+        <p class="tl-where"><a href="https://shanghai.nyu.edu/">New York University Shanghai</a></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TEACHING ============ -->
+<section class="section" id="teaching">
+  <div class="wrap wrap--narrow">
+    <h2 class="sec-h"><span class="bar"></span>Teaching</h2>
+    <p><strong>I love teaching</strong> and have worked as a teaching assistant since the first semester of my sophomore year. I am doing my best to reduce inequalities in course teaching and help students from different backgrounds gain the same knowledge.</p>
+    <p>If you are my student (in <strong>SI 100B</strong>, <strong>SI 100+</strong>, or other courses) and want to chat for advice — though I am just getting started on many things myself — feel free to <a href="mailto:yuhanteafrog@gmail.com">reach out</a> anytime.</p>
+    <ul class="course-list">
+      <li class="course">
+        <div class="course__name">SI 100B &amp; SI 100F<span class="course__role">(Head) Teaching Assistant for 3.5 years</span></div>
+        <p>Led the TA group and helped design lectures, tutorials, programming assignments, course projects, grading standards, academic-integrity checks, and the online judge. Individually supported more than 500 students.</p>
+      </li>
+      <li class="course">
+        <div class="course__name">CS 101: Algorithms and Data Structures<span class="course__role">Teaching Assistant · Programming Assignments Lead</span></div>
+        <p>Designed and verified three programming assignments covering divide and conquer, complex data structures, graph theory, and related topics; also maintained teaching materials and videos.</p>
+      </li>
+      <li class="course">
+        <div class="course__name">CS 100: Introduction to Programming<span class="course__role">Teaching Assistant</span></div>
+        <p>Led weekly discussions on C, memory management, object-oriented programming, and modern C++, and designed supporting discussion slides.</p>
+      </li>
+      <li class="course">
+        <div class="course__name">CSCI-SHU 210: Data Structures<span class="course__role">Grader @ NYU Shanghai</span></div>
+        <p>Graded quizzes and exams and supported students with coursework and homework.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ COLLECTIONS ============ -->
+<section class="section section--alt" id="collections">
+  <div class="wrap">
+    <h2 class="sec-h"><span class="bar"></span>Collections</h2>
+    <p class="sec-sub">I enjoy exploring and creating music in different styles. Below are some pieces I have created in the past. If you also enjoy making music or are interested in research at the intersection of music and computer science, please <a href="mailto:yuhanteafrog@gmail.com">contact me</a>, and I would be happy to chat with you!</p>
+
+    <div class="collection-groups">
+      <div class="collection-group">
+        <h3 class="collection-category">complete</h3>
+        <div class="collection-grid">
+          <article class="collection-item">
+            <figure class="collection-cover">
+              <img src="assets/img/futurelast_pv.jpg" alt="来自未来的故事 / FutureLast" loading="lazy" />
+            </figure>
+            <div class="collection-content">
+              <h4 class="collection-title">来自未来的故事 / FutureLast</h4>
+              <p class="collection-description">My first live song.</p>
+              <div class="collection-copy"><p>Thanks to all staff for their efforts.</p></div>
+              <audio class="collection-audio" controls preload="none" aria-label="来自未来的故事 / FutureLast"><source src="assets/audio/FutureLast-IX.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+
+          <article class="collection-item">
+            <figure class="collection-cover">
+              <img src="assets/img/futurelast.jpg" alt="来自未来的故事 / FutureLast (Acou Ver.）" loading="lazy" />
+            </figure>
+            <div class="collection-content">
+              <h4 class="collection-title">来自未来的故事 / FutureLast (Acou Ver.）</h4>
+              <p class="collection-description">A theme of ShanghaiTech University Graduation Ceremony Video for SIST Class 2024.</p>
+              <div class="collection-copy"><p>Goodbye in this summer. Thanks to all staff for their efforts.</p></div>
+              <audio class="collection-audio" controls preload="none" aria-label="FutureLast acoustic version"><source src="assets/audio/FutureLast.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+
+          <article class="collection-item collection-item--plain collection-item--wide">
+            <div class="collection-content">
+              <h4 class="collection-title">To You</h4>
+              <p class="collection-description">Not to you.</p>
+              <div class="collection-copy"><p>A gift.</p></div>
+              <audio class="collection-audio" controls preload="none" aria-label="To You"><source src="assets/audio/ToYou.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+
+          <article class="collection-item">
+            <figure class="collection-cover">
+              <img src="assets/img/12_new.jpg" alt="Straw" loading="lazy" />
+            </figure>
+            <div class="collection-content">
+              <h4 class="collection-title">Straw</h4>
+              <p class="collection-description">My first complete work.</p>
+              <div class="collection-copy">
+                <p>A complicated-style music. Vocal is a part of instruments, so don't worry if you don't speak Chinese.</p>
+                <p>Note that the audio is uncompressed, so it may take you some time to load.</p>
+                <p class="collection-caption">稻草啊稻草，火光摇摇。</p>
+              </div>
+              <audio class="collection-audio" controls preload="none" aria-label="Straw"><source src="assets/audio/Straw.wav" type="audio/wav" /></audio>
+            </div>
+          </article>
+
+          <article class="collection-item">
+            <figure class="collection-cover">
+              <img src="assets/img/stars.png" alt="Be One of the Sparkling Stars" loading="lazy" />
+            </figure>
+            <div class="collection-content">
+              <h4 class="collection-title">Be One of the Sparkling Stars</h4>
+              <p class="collection-description">A promotion song for ShanghaiTech University.</p>
+              <div class="collection-copy"><p>This song is used as the background music in a promotion music video of ShanghaiTech University. Thanks to all vocals for their efforts.</p></div>
+              <audio class="collection-audio" controls preload="none" aria-label="Be One of the Sparkling Stars"><source src="assets/audio/ShtechPromotion.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="collection-group">
+        <h3 class="collection-category">demo</h3>
+        <div class="collection-grid collection-grid--demo">
+          <article class="collection-item collection-item--plain">
+            <div class="collection-content">
+              <h4 class="collection-title">Cio's Theme</h4>
+              <div class="collection-copy"><p>An idea of heavy metal.</p></div>
+              <audio class="collection-audio" controls preload="none" aria-label="Cio's Theme"><source src="assets/audio/Cio.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+
+          <article class="collection-item collection-item--plain">
+            <div class="collection-content">
+              <h4 class="collection-title">Twiroe's Theme</h4>
+              <div class="collection-copy"><p>An idea of antonym of heavy metal.</p></div>
+              <audio class="collection-audio" controls preload="none" aria-label="Twiroe's Theme"><source src="assets/audio/Twiroe.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+
+          <article class="collection-item collection-item--plain">
+            <div class="collection-content">
+              <h4 class="collection-title">Incomplete Epilogue</h4>
+              <audio class="collection-audio" controls preload="none" aria-label="Incomplete Epilogue"><source src="assets/audio/Tris2Theme.mp3" type="audio/mpeg" /></audio>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="footer-anchor" id="footerAnchor">
+  <footer id="siteFooter">
+    <div class="wrap foot">
+      <span class="motto">“Take nothing for granted.”</span>
+      <span class="copy">© 2026 Yuhan Cao. Thanks to all those who have accompanied me.</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+/* ---- theme toggle (persisted, no motion) ---- */
+(function(){
+  var root = document.documentElement, btn = document.getElementById('themeToggle');
+  var saved = null;
+  try{ saved = localStorage.getItem('yc-theme'); }catch(e){}
+  if(saved){ root.setAttribute('data-theme', saved); }
+  else if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){ root.setAttribute('data-theme','dark'); }
+  btn.addEventListener('click', function(){
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try{ localStorage.setItem('yc-theme', next); }catch(e){}
+  });
+})();
+
+/* ---- nav scrollspy ---- */
+(function(){
+  var links = {};
+  document.querySelectorAll('.nav__links a').forEach(function(a){ links[a.getAttribute('href').slice(1)] = a; });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        Object.values(links).forEach(function(l){ l.classList.remove('is-active'); });
+        if(links[e.target.id]) links[e.target.id].classList.add('is-active');
+      }
+    });
+  }, { rootMargin: '-30% 0px -65% 0px' });
+  document.querySelectorAll('section[id]').forEach(function(s){ io.observe(s); });
+})();
+
+/* ---- expand author lists ---- */
+(function(){
+  document.querySelectorAll('.auth-more').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var rest = btn.previousElementSibling;
+      var open = rest.hasAttribute('hidden');
+      if(open){
+        rest.removeAttribute('hidden');
+        btn.setAttribute('aria-expanded', 'true');
+        btn.textContent = ' · show less';
+      }else{
+        rest.setAttribute('hidden','');
+        btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = ', and ' + btn.dataset.n + ' more';
+      }
+    });
+  });
+})();
+
+(function(){
+  var list = document.getElementById('newsList');
+  var btn = document.getElementById('newsToggle');
+  if(!list || !btn) return;
+
+  var defaultCount = 5;
+  var maxCount = 10;
+  var items = Array.prototype.slice.call(list.children);
+  var displayItems = items.slice(0, maxCount);
+  var extraCount = Math.max(0, displayItems.length - defaultCount);
+
+  items.slice(maxCount).forEach(function(item){ item.hidden = true; });
+  if(!extraCount){
+    btn.parentElement.hidden = true;
+    return;
+  }
+
+  function setExpanded(expanded){
+    displayItems.forEach(function(item, index){
+      item.hidden = !expanded && index >= defaultCount;
+    });
+    btn.setAttribute('aria-expanded', String(expanded));
+    btn.querySelector('.news-toggle__icon').textContent = expanded ? '-' : '+';
+    btn.querySelector('.news-toggle__label').textContent = expanded ? 'Show less' : 'Show ' + extraCount + ' more';
+  }
+
+  btn.addEventListener('click', function(){
+    setExpanded(btn.getAttribute('aria-expanded') !== 'true');
+  });
+  setExpanded(false);
+})();
+
+/* ---- footer: fixed to the viewport, then docked at the page end ---- */
+(function(){
+  var anchor = document.getElementById('footerAnchor');
+  var footer = document.getElementById('siteFooter');
+  if(!anchor || !footer) return;
+
+  function updateFooter(){
+    var height = footer.offsetHeight;
+    anchor.style.height = height + 'px';
+    anchor.classList.add('footer-anchor--ready');
+    anchor.classList.toggle('is-docked', anchor.getBoundingClientRect().top <= window.innerHeight - height + 1);
+  }
+
+  window.addEventListener('scroll', updateFooter, { passive: true });
+  window.addEventListener('resize', updateFooter);
+  if(window.ResizeObserver){ new ResizeObserver(updateFooter).observe(footer); }
+  requestAnimationFrame(updateFooter);
+})();
+</script>
+</body>
+</html>
